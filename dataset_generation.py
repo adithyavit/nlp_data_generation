@@ -14,7 +14,6 @@ def select_replace(line, chunk):
     pronoun = "it"
     # line.replace(word, pronoun)
     line = re.sub(word, pronoun, line, flags=re.IGNORECASE)
-    # print(line)
     return line, word, pronoun
 
 for row in data.itertuples(index=True, name='Pandas'):
