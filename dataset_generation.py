@@ -41,7 +41,7 @@ for row in data.itertuples(index=True, name='Pandas'):
     total_set = intr1.union(intr2, intr3)
     total_length = len(total_set)
 
-    if (total_length ==2):
+    if (total_length == 2):
         if(len(intr1)>0):
             line, referring_word, pronoun = select_replace(row.a1, chunka1)
             phrase = row.p+" "+line+" "+row.a2
