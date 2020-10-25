@@ -28,5 +28,7 @@
 
 
 If you add any new packages to the project, you might need to update the requirement files. Please follow the steps:
+
     -   pip freeze > requirements.txt
+
     -   Push it to git
