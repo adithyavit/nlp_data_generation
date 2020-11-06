@@ -6,15 +6,45 @@ nlp = spacy.load("en_core_web_sm")
 import random
 import re
 from readAndWriteData import write_json
-data = pd.read_csv("balacopa-dev-all.csv")
+# data = pd.read_csv("balacopa-dev-all.csv")
+data = pd.read_csv("balacopa-dev-small.csv")
 count = 0
 
+pronoun_set = set()
 
-def select_replace(line, chunk):
-    word = random.choice(tuple(chunk))
-    pronoun = "it"
+male_set = {'her brother', 'his older brother', 'he', 'his brother', 'the man','him', 'the boy'}
+female_set = {'her', 'her sister', 'the girl', 'her mother','her daughter','she','the woman','his mother'}
+neutral_set = {'the suspect', 'the police officer','his classmate','the rider', 'the assailant', 'the student', 'the child', 
+'a player', 'the physician', 'the scar','his enemy', 'the police', 'the bully', 'the cook', 'i', 'the customer',
+ 'the therapist', 'the teacher', 'the caller','the president','her friend','the celebrity','the mayor','the baby'}
+object_set = {'the gum', 'the computer', 'the door','the puddle', 'it', 'my foot', 'the chair', 'her finger',
+'the bottle', 'the shirt', 'the paperclip', 'the dog', 'the railing', 'her hair', 'college', 'the floor', 
+'the book', 'my yard', 'the puzzle', 'the clay','the button', 'his back', 'the church', 'the moon','the disease','the question','his theory','the gift','loose change','the tablecloth','the thread','the room','the jar','the pond',
+'the fabric', 'the desk','the liquid', 'the slide',"the patient's arm",'the bill','his toys','the air conditioner','the hamburger','his pocket',
+'the bowling ball','school'}
+plural_set = {'the audience', 'my hands', 'the rules', 'her parents','the parents','the children','they'}
+neutral_self_set = {'i', 'we', 'them'}  
+
+def select_replace_neutral(line, chunk, he_she, word):
+    pronoun = he_she
     line = re.sub(word, pronoun, line, flags=re.IGNORECASE)
     return line, word, pronoun
+
+def select_replace(line, chunk):
+    is_neutral=False
+    word = random.choice(tuple(chunk))
+    if(word in male_set): pronoun ="he"
+    if(word in female_set): pronoun ="she"
+    if(word in neutral_set): 
+        pronoun ="he"
+        is_neutral = True
+    if(word in object_set): pronoun ="it"
+    if(word in plural_set): pronoun ="they"
+    if(word in neutral_self_set): pronoun = word
+
+    # pronoun = "it"
+    line = re.sub(word, pronoun, line, flags=re.IGNORECASE)
+    return line, word, pronoun, is_neutral
 
 output_dict = {}
 for row in data.itertuples(index=True, name='Pandas'):
@@ -33,6 +63,7 @@ for row in data.itertuples(index=True, name='Pandas'):
     chunka2 = [chunk.text.lower() for chunk in doca2.noun_chunks]
     chunka2 = set(chunka2)
 
+
     line = row.p+" "+row.a1+" "+row.a2
     intr1 = chunkp.intersection(chunka1)
     intr2 = chunka1.intersection(chunka2)
@@ -40,32 +71,98 @@ for row in data.itertuples(index=True, name='Pandas'):
 
     total_set = intr1.union(intr2, intr3)
     total_length = len(total_set)
+    # print(total_set)
+    union_set = chunkp.union(chunka1).union(chunka2)
+    # change it >0 afterwards
+    if (total_length ==2):
 
-    if (total_length == 2):
-        if(len(intr1)>0):
-            line, referring_word, pronoun = select_replace(row.a1, chunka1)
-            phrase = row.p+" "+line+" "+row.a2
-            ans = referring_word
-            option1 = total_set.pop()
-            option2 = total_set.pop()
-        elif(len(intr2)>0):
-            line, referring_word, pronoun = select_replace(row.a2, chunka2)
-            phrase = row.p+" "+row.a1+" "+line
-            ans = referring_word
-            option1 = total_set.pop()
-            option2 = total_set.pop()
-        elif(len(intr3)>0):
-            line, referring_word, pronoun = select_replace(row.a2, chunka2)
-            phrase = row.p+" "+row.a1+" "+line
-            ans = referring_word
-            option1 = total_set.pop()
-            option2 = total_set.pop()
+        while(len(union_set)>1):
+            print(union_set)
+            if(len(intr1)>0):
+                line, referring_word, pronoun,is_neutral = select_replace(row.a1, intr1)
+                if(is_neutral):
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    phrase = row.p+" "+line+" "+row.a2
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                    
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    phrase = row.p+" "+line+" "+row.a2
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                else:   
+                    phrase = row.p+" "+line+" "+row.a2
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    # pop will create issue when generating multiple data
+                    option2 = union_set.pop()
 
-        count+=1
-        each_output = {}
-        each_output["Sentence"] = phrase
-        each_output["Option1"] = option1
-        each_output["Option2"] = option2
-        each_output["Answer"] = ans
-        output_dict[str(count)] = each_output
+
+            elif(len(intr2)>0):
+                line, referring_word, pronoun = select_replace(row.a2, intr2)
+                if(is_neutral):
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                    
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                else:
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+            elif(len(intr2)>0):
+                line, referring_word, pronoun = select_replace(row.a2, intr2)
+                if(is_neutral):
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                    
+                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+                else:
+                    phrase = row.p+" "+row.a1+" "+line
+                    ans = referring_word
+                    option1 = ans
+                    union_set.discard(ans)
+                    option2 = union_set.pop()
+
+
+            count+=1
+            each_output = {}
+            each_output["Sentence"] = phrase
+            each_output["Option1"] = option1
+            each_output["Option2"] = option2
+            each_output["Answer"] = ans
+            pronoun_set.add(ans)
+            output_dict[str(count)] = each_output
     write_json(output_dict, "model_output.json")
+
+# print(len(male_set)+len(female_set)+len(neutral_set)+len(object_set)+len(plural_set)+len(neutral_self_set))
+# combined_set = (male_set).union(female_set).union(neutral_set).union(object_set).union(plural_set).union(neutral_self_set)
+# print(len(pronoun_set))
+# # pronoun_set.remove(combined_set)
+# # print(pronoun_set)
+# print(combined_set.difference(pronoun_set))
+# print(pronoun_set.difference(combined_set))

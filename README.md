@@ -19,6 +19,7 @@
 2. Activate the environment
     
     source env/bin/activate on unix or
+    nlpenv\Scripts\activate.bat
     
     Source_path_to_env\Scripts\activate.bat on windows where Source_path_to_env is the path in the form of 'C:\Users\'Username'\venv'
     
