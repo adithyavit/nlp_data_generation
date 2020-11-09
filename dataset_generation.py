@@ -1,3 +1,4 @@
+
 import pandas as pd
 import spacy
 import sys
@@ -6,8 +7,8 @@ nlp = spacy.load("en_core_web_sm")
 import random
 import re
 from readAndWriteData import write_json
-# data = pd.read_csv("balacopa-dev-all.csv")
-data = pd.read_csv("balacopa-dev-small.csv")
+data = pd.read_csv("balacopa-dev-all.csv")
+# data = pd.read_csv("balacopa-dev-small.csv")
 count = 0
 
 pronoun_set = set()
@@ -31,6 +32,7 @@ def select_replace_neutral(line, chunk, he_she, word):
     return line, word, pronoun
 
 def select_replace(line, chunk):
+    pronoun = "it"
     is_neutral=False
     word = random.choice(tuple(chunk))
     if(word in male_set): pronoun ="he"
@@ -42,9 +44,31 @@ def select_replace(line, chunk):
     if(word in plural_set): pronoun ="they"
     if(word in neutral_self_set): pronoun = word
 
-    # pronoun = "it"
     line = re.sub(word, pronoun, line, flags=re.IGNORECASE)
     return line, word, pronoun, is_neutral
+
+def prepare_output(each_output, phrase, option1, option2, ans):
+    each_output["Sentence"] = phrase
+    each_output["Option1"] = option1
+    each_output["Option2"] = option2
+    each_output["Answer"] = ans
+
+def get_values(referring_word, union_set, phrase):
+    ans = referring_word
+    option1 = ans
+    union_set.discard(ans)
+    option2 = union_set.pop()
+    return ans, option1, option2
+
+def set_values(ans, option1, option2, phrase):
+    global count
+    global pronoun_set
+    global output_dict
+    count+=1
+    each_output = {}
+    prepare_output(each_output, phrase, option1, option2, ans)
+    pronoun_set.add(ans)
+    output_dict[str(count)] = each_output
 
 output_dict = {}
 for row in data.itertuples(index=True, name='Pandas'):
@@ -77,87 +101,62 @@ for row in data.itertuples(index=True, name='Pandas'):
     if (total_length ==2):
 
         while(len(union_set)>1):
-            print(union_set)
+            # print(union_set)
+            # print(len(intr1), len(intr2), len(intr3))
             if(len(intr1)>0):
                 line, referring_word, pronoun,is_neutral = select_replace(row.a1, intr1)
                 if(is_neutral):
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+line+" "+row.a2
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)
                     
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+line+" "+row.a2
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    set_values(ans, option1, option2, phrase)
                 else:   
                     phrase = row.p+" "+line+" "+row.a2
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    # pop will create issue when generating multiple data
-                    option2 = union_set.pop()
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)
 
 
             elif(len(intr2)>0):
-                line, referring_word, pronoun = select_replace(row.a2, intr2)
+                line, referring_word, pronoun, is_neutral = select_replace(row.a2, intr2)
                 if(is_neutral):
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
-                    
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)
+
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    set_values(ans, option1, option2, phrase)
                 else:
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)
+
             elif(len(intr2)>0):
-                line, referring_word, pronoun = select_replace(row.a2, intr2)
+                line, referring_word, pronoun, is_neutral = select_replace(row.a2, intr2)
                 if(is_neutral):
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"he", referring_word)
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
-                    
-                    line, referring_word, pronoun,is_neutral = select_replace_neutral(row.a1, intr1,"she", referring_word)
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)
+
+                    line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    set_values(ans, option1, option2, phrase)
                 else:
                     phrase = row.p+" "+row.a1+" "+line
-                    ans = referring_word
-                    option1 = ans
-                    union_set.discard(ans)
-                    option2 = union_set.pop()
+                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
+                    set_values(ans, option1, option2, phrase)                    
+            else:
+                break
 
-
-            count+=1
-            each_output = {}
-            each_output["Sentence"] = phrase
-            each_output["Option1"] = option1
-            each_output["Option2"] = option2
-            each_output["Answer"] = ans
-            pronoun_set.add(ans)
-            output_dict[str(count)] = each_output
     write_json(output_dict, "model_output.json")
+
+
 
 # print(len(male_set)+len(female_set)+len(neutral_set)+len(object_set)+len(plural_set)+len(neutral_self_set))
 # combined_set = (male_set).union(female_set).union(neutral_set).union(object_set).union(plural_set).union(neutral_self_set)
