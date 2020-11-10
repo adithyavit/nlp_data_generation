@@ -6,12 +6,17 @@ spacy.prefer_gpu()
 nlp = spacy.load("en_core_web_sm")
 import random
 import re
-from readAndWriteData import write_json
+from random import seed
+import time
+import random
+from readAndWriteData import write_json, write_csv_from_dict
 data = pd.read_csv("balacopa-dev-all.csv")
 # data = pd.read_csv("balacopa-dev-small.csv")
 count = 0
 
 pronoun_set = set()
+output_dict = {}
+# output_dict = set()
 
 male_set = {'her brother', 'his older brother', 'he', 'his brother', 'the man','him', 'the boy'}
 female_set = {'her', 'her sister', 'the girl', 'her mother','her daughter','she','the woman','his mother'}
@@ -47,30 +52,52 @@ def select_replace(line, chunk):
     line = re.sub(word, pronoun, line, flags=re.IGNORECASE)
     return line, word, pronoun, is_neutral
 
-def prepare_output(each_output, phrase, option1, option2, ans):
-    each_output["Sentence"] = phrase
-    each_output["Option1"] = option1
-    each_output["Option2"] = option2
-    each_output["Answer"] = ans
+def prepare_output(each_output, phrase, option1, option2, ans, pronoun, offset1, offset2, pronoun_offset):
+    each_output['ID'] = "development_new"+str(count)
+    each_output["Text"] = phrase
+    each_output["Pronoun"] = pronoun
+    each_output["Pronoun-offset"] = pronoun_offset
+    each_output["A"] = option1
+    each_output["A-offset"] = offset1
+    if(ans==option1): 
+        each_output["A-coref"] = True
+    elif(ans==option2): 
+        each_output["A-coref"] = False
+    each_output["B"] = option2
+    each_output["B-offset"] = offset2
+    if(ans==option2): 
+        each_output["B-coref"] = True
+    elif(ans==option1): 
+        each_output["B-coref"] = False
+    each_output['URL'] = "no url"
+    # each_output["Answer"] = ans
+
 
 def get_values(referring_word, union_set, phrase):
     ans = referring_word
     option1 = ans
     union_set.discard(ans)
     option2 = union_set.pop()
-    return ans, option1, option2
+    seed(time.time())
+    randval = random.randint(0,1)
+    if(randval == 0):
+        option1, option2 = option2, option1
+    offset1 = phrase.lower().find(option1)
+    offset2 = phrase.lower().find(option2)
+    return ans, option1, option2, offset1, offset2
 
-def set_values(ans, option1, option2, phrase):
+def set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset):
     global count
     global pronoun_set
     global output_dict
     count+=1
     each_output = {}
-    prepare_output(each_output, phrase, option1, option2, ans)
+    prepare_output(each_output, phrase, option1, option2, ans, pronoun, offset1, offset2, pronoun_offset)
     pronoun_set.add(ans)
     output_dict[str(count)] = each_output
+    # output_dict.add(each_output)
 
-output_dict = {}
+
 for row in data.itertuples(index=True, name='Pandas'):
     textp = row.p
     docp = nlp(textp)
@@ -91,7 +118,7 @@ for row in data.itertuples(index=True, name='Pandas'):
     line = row.p+" "+row.a1+" "+row.a2
     intr1 = chunkp.intersection(chunka1)
     intr2 = chunka1.intersection(chunka2)
-    intr3 = chunkp.intersection(chunka2)  
+    intr3 = chunkp.intersection(chunka2)
 
     total_set = intr1.union(intr2, intr3)
     total_length = len(total_set)
@@ -108,16 +135,19 @@ for row in data.itertuples(index=True, name='Pandas'):
                 if(is_neutral):
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+line+" "+row.a2
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
                     
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+line+" "+row.a2
-                    set_values(ans, option1, option2, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
                 else:   
                     phrase = row.p+" "+line+" "+row.a2
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
 
 
             elif(len(intr2)>0):
@@ -125,37 +155,48 @@ for row in data.itertuples(index=True, name='Pandas'):
                 if(is_neutral):
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
 
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    set_values(ans, option1, option2, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
                 else:
                     phrase = row.p+" "+row.a1+" "+line
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
 
             elif(len(intr2)>0):
                 line, referring_word, pronoun, is_neutral = select_replace(row.a2, intr2)
                 if(is_neutral):
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"he", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
 
                     line, referring_word, pronoun = select_replace_neutral(row.a1, intr1,"she", referring_word)
                     phrase = row.p+" "+row.a1+" "+line
-                    set_values(ans, option1, option2, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)
                 else:
                     phrase = row.p+" "+row.a1+" "+line
-                    ans, option1, option2 = get_values(referring_word, union_set, phrase)
-                    set_values(ans, option1, option2, phrase)                    
+                    ans, option1, option2, offset1, offset2 = get_values(referring_word, union_set, phrase)
+                    pronoun_offset = phrase.lower().find(pronoun)
+                    set_values(ans, option1, option2, phrase, pronoun, offset1, offset2, pronoun_offset)                 
             else:
                 break
-
+    
+    output_df = pd.DataFrame.from_dict(output_dict, orient='index')
+    # output_df.drop(output_df.columns[[0]], axis=1) 
+    output_df = output_df.loc[:, ~output_df.columns.str.contains('^Unnamed')]
+    # print(output_df.columns)
+    output_df.to_csv('model_output.csv')
     write_json(output_dict, "model_output.json")
-
+    # write_csv_from_dict(output_dict, "model_output.csv")
 
 
 # print(len(male_set)+len(female_set)+len(neutral_set)+len(object_set)+len(plural_set)+len(neutral_self_set))

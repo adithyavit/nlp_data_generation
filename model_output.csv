@@ -1,0 +1,727 @@
+ID,Text,Pronoun,Pronoun-offset,A,A-offset,A-coref,B,B-offset,B-coref,URL
+development_new1,The woman tolerated her friend's difficult behavior. she knew her friend was going through a hard time. The woman felt that her friend took advantage of her kindness.,she,53,her friend,20,FALSE,the woman,0,TRUE,no url
+development_new2,The woman tolerated her friend's difficult behavior. she knew her friend was going through a hard time. The woman felt that her friend took advantage of her kindness.,she,53,her kindness,153,FALSE,the woman,0,TRUE,no url
+development_new3,The woman tolerated her friend's difficult behavior. she knew her friend was going through a hard time. The woman felt that her friend took advantage of her kindness.,she,53,advantage,140,FALSE,the woman,0,TRUE,no url
+development_new4,The woman tolerated her friend's difficult behavior. she knew her friend was going through a hard time. The woman felt that her friend took advantage of her kindness.,she,53,a hard time,91,FALSE,the woman,0,TRUE,no url
+development_new5,The woman did not tolerate her friend's difficult behavior anymore. she felt that her friend took advantage of her kindness. The woman knew her friend was going through a hard time.,she,68,the woman,0,TRUE,a hard time,169,FALSE,no url
+development_new6,The woman did not tolerate her friend's difficult behavior anymore. she felt that her friend took advantage of her kindness. The woman knew her friend was going through a hard time.,she,68,the woman,0,TRUE,her kindness,111,FALSE,no url
+development_new7,The woman did not tolerate her friend's difficult behavior anymore. she felt that her friend took advantage of her kindness. The woman knew her friend was going through a hard time.,she,68,the woman,0,TRUE,advantage,98,FALSE,no url
+development_new8,The woman did not tolerate her friend's difficult behavior anymore. she felt that her friend took advantage of her kindness. The woman knew her friend was going through a hard time.,she,68,the woman,0,TRUE,her friend,27,FALSE,no url
+development_new9,The stain came out of the shirt. I patched it. I bleached the shirt.,it,43,the shirt,22,TRUE,i,7,FALSE,no url
+development_new10,The shirt did not have a hole anymore. I patched it. I bleached the shirt.,it,49,a hole,23,FALSE,the shirt,0,TRUE,no url
+development_new11,The physician misdiagnosed the patient. it disclosed confidential information to the physician. The patient filed a malpractice lawsuit against the physician.,it,40,the patient,27,TRUE,the physician,0,FALSE,no url
+development_new12,The physician misdiagnosed the patient. The patient disclosed confidential information to he. The patient filed a malpractice lawsuit against the physician.,he,1,the physician,0,TRUE,confidential information,62,FALSE,no url
+development_new13,The physician misdiagnosed the patient. The patient disclosed confidential information to she. The patient filed a malpractice lawsuit against the physician.,she,90,the physician,0,TRUE,confidential information,62,FALSE,no url
+development_new14,The patient was a close friend of the physician. The patient disclosed confidential information to he. The patient filed a malpractice lawsuit against the physician.,he,1,the physician,34,TRUE,the patient,0,FALSE,no url
+development_new15,The patient was a close friend of the physician. The patient disclosed confidential information to she. The patient filed a malpractice lawsuit against the physician.,she,99,the physician,34,TRUE,the patient,0,FALSE,no url
+development_new16,The patient was a close friend of the physician. The patient disclosed confidential information to he. The patient filed a malpractice lawsuit against the physician.,he,1,the physician,34,TRUE,confidential information,71,FALSE,no url
+development_new17,The patient was a close friend of the physician. The patient disclosed confidential information to she. The patient filed a malpractice lawsuit against the physician.,she,99,the physician,34,TRUE,confidential information,71,FALSE,no url
+development_new18,The patient was a close friend of the physician. The patient disclosed confidential information to he. The patient filed a malpractice lawsuit against the physician.,he,1,the physician,34,TRUE,a malpractice lawsuit,121,FALSE,no url
+development_new19,The patient was a close friend of the physician. The patient disclosed confidential information to she. The patient filed a malpractice lawsuit against the physician.,she,99,the physician,34,TRUE,a malpractice lawsuit,121,FALSE,no url
+development_new20,The customer filed a complaint with the store manager. The sales associate acted rude to he. The sales associate undercharged the customer.,he,1,the customer,0,TRUE,the sales associate,55,FALSE,no url
+development_new21,The customer filed a complaint with the store manager. The sales associate acted rude to she. The sales associate undercharged the customer.,she,89,the customer,0,TRUE,the sales associate,55,FALSE,no url
+development_new22,The customer filed a complaint with the store manager. The sales associate acted rude to he. The sales associate undercharged the customer.,he,1,the customer,0,TRUE,the store manager,36,FALSE,no url
+development_new23,The customer filed a complaint with the store manager. The sales associate acted rude to she. The sales associate undercharged the customer.,she,89,the customer,0,TRUE,the store manager,36,FALSE,no url
+development_new24,The sales associate sent another invoice to the customer.  The sales associate undercharged he. The sales associate acted rude to the customer.,he,1,the sales associate,0,FALSE,the customer,44,TRUE,no url
+development_new25,The sales associate sent another invoice to the customer.  The sales associate undercharged she. The sales associate acted rude to the customer.,she,92,the sales associate,0,FALSE,the customer,44,TRUE,no url
+development_new26,The pond froze over for the winter. People brought boats to it. People skated on the pond.,it,60,boats,51,FALSE,the pond,0,TRUE,no url
+development_new27,The pond froze over for the winter. People brought boats to it. People skated on the pond.,it,60,people,36,FALSE,the pond,0,TRUE,no url
+development_new28,The frozen pond thawed in the spring. People brought boats to the pond. People skated on it.,it,89,boats,53,FALSE,the pond,62,TRUE,no url
+development_new29,The frozen pond thawed in the spring. People brought boats to the pond. People skated on it.,it,89,people,38,FALSE,the pond,62,TRUE,no url
+development_new30,The frozen pond thawed in the spring. People brought boats to the pond. People skated on it.,it,89,the frozen pond,0,FALSE,the pond,62,TRUE,no url
+development_new31,The shirt shrunk. I put it in the dryer. he put het hen the dryer.,he,1,the shirt,0,FALSE,i,6,TRUE,no url
+development_new32,The shirt shrunk. I put it in the dryer. she put shet shen the dryer.,she,41,the shirt,0,FALSE,i,6,TRUE,no url
+development_new33,The shirt shrunk. I put it in the dryer. he put het hen the dryer.,he,1,it,24,FALSE,i,6,TRUE,no url
+development_new34,The shirt shrunk. I put it in the dryer. she put shet shen the dryer.,she,41,it,24,FALSE,i,6,TRUE,no url
+development_new35,The shirt shrunk. I put it in the dryer. he put het hen the dryer.,he,1,bleach,-1,FALSE,i,6,TRUE,no url
+development_new36,The shirt shrunk. I put it in the dryer. she put shet shen the dryer.,she,41,bleach,-1,FALSE,i,6,TRUE,no url
+development_new37,The shirt became clean. I poured bleach on it. he poured bleach on het.,he,1,i,6,TRUE,the shirt,0,FALSE,no url
+development_new38,The shirt became clean. I poured bleach on it. she poured bleach on shet.,she,47,i,6,TRUE,the shirt,0,FALSE,no url
+development_new39,The shirt became clean. I poured bleach on it. he poured bleach on het.,he,1,i,6,TRUE,it,43,FALSE,no url
+development_new40,The shirt became clean. I poured bleach on it. she poured bleach on shet.,she,47,i,6,TRUE,it,43,FALSE,no url
+development_new41,The shirt became clean. I poured bleach on it. he poured bleach on het.,he,1,i,6,TRUE,bleach,33,FALSE,no url
+development_new42,The shirt became clean. I poured bleach on it. she poured bleach on shet.,she,47,i,6,TRUE,bleach,33,FALSE,no url
+development_new43,I hung up the phone. The caller said goodbye to me. he said goodbye to me.,he,11,himself,-1,FALSE,the caller,21,TRUE,no url
+development_new44,I hung up the phone. The caller said goodbye to me. she said goodbye to me.,she,52,himself,-1,FALSE,the caller,21,TRUE,no url
+development_new45,I hung up the phone. The caller said goodbye to me. The caller identified himself to it.,it,85,the phone,10,FALSE,me,48,TRUE,no url
+development_new46,I hung up the phone. The caller said goodbye to me. The caller identified himself to it.,it,85,i,0,FALSE,me,48,TRUE,no url
+development_new47,I recognized the caller. he identified himself to me. The caller said goodbye to me.,he,14,the caller,13,TRUE,himself,39,FALSE,no url
+development_new48,I recognized the caller. she identified himself to me. The caller said goodbye to me.,she,25,the caller,13,TRUE,himself,39,FALSE,no url
+development_new49,I recognized the caller. he identified himself to me. The caller said goodbye to me.,he,14,the caller,13,TRUE,i,0,FALSE,no url
+development_new50,I recognized the caller. she identified himself to me. The caller said goodbye to me.,she,25,the caller,13,TRUE,i,0,FALSE,no url
+development_new51,I recognized the caller. he identified himself to me. The caller said goodbye to me.,he,14,the caller,13,TRUE,me,50,FALSE,no url
+development_new52,I recognized the caller. she identified himself to me. The caller said goodbye to me.,she,25,the caller,13,TRUE,me,50,FALSE,no url
+development_new53,The woman's date wanted to look like a gentleman. He opened the door for her. He asked she if she liked sushi.,she,87,a gentleman,37,FALSE,her,73,TRUE,no url
+development_new54,The woman's date wanted to look like a gentleman. He opened the door for her. he asked her if she liked sushi.,he,1,the door,60,FALSE,he,1,TRUE,no url
+development_new55,The woman's date wanted to look like a gentleman. He opened the door for her. he asked her if she liked sushi.,he,1,she,94,FALSE,he,1,TRUE,no url
+development_new56,The woman's date wanted to look like a gentleman. He opened the door for her. he asked her if she liked sushi.,he,1,the woman's date,0,FALSE,he,1,TRUE,no url
+development_new57,The woman's date wanted to have Japanese cuisine. He asked her if she liked sushi. he opened the door for her.,he,1,her,59,FALSE,he,1,TRUE,no url
+development_new58,The woman's date wanted to have Japanese cuisine. He asked her if she liked sushi. He opened the door for she.,she,66,the door,93,FALSE,her,59,TRUE,no url
+development_new59,The woman's date wanted to have Japanese cuisine. He asked her if she liked sushi. He opened the door for she.,she,66,she,66,FALSE,her,59,TRUE,no url
+development_new60,The woman's date wanted to have Japanese cuisine. He asked her if she liked sushi. He opened the door for she.,she,66,japanese cuisine,32,FALSE,her,59,TRUE,no url
+development_new61,The woman's date wanted to have Japanese cuisine. He asked her if she liked sushi. He opened the door for she.,she,66,the woman's date,0,FALSE,her,59,TRUE,no url
+development_new62,The host cancelled the party. She worried she would catch the flu. She was certain she had it.,it,91,the flu,58,TRUE,the party,19,FALSE,no url
+development_new63,The host cancelled the party. She worried she would catch the flu. She was certain she had it.,it,91,the flu,58,TRUE,she,30,FALSE,no url
+development_new64,The woman got vaccinated. She was certain she had the flu. She worried she would catch it.,it,87,the flu,50,TRUE,she,26,FALSE,no url
+development_new65,The woman gave the man her phone number. She was attracted to him. she was repulsed by him.,she,41,she,41,TRUE,her phone number,23,FALSE,no url
+development_new66,The woman gave the man her phone number. She was attracted to him. She was repulsed by he.,he,1,him,62,TRUE,the man,15,FALSE,no url
+development_new67,The woman ignored the man. She was attracted to him. she was repulsed by him.,she,27,him,48,FALSE,she,27,TRUE,no url
+development_new68,The woman ignored the man. She was attracted to him. She was repulsed by he.,he,1,the man,18,FALSE,him,48,TRUE,no url
+development_new69,The child became immune to the disease. He received the vaccine for it. He avoided exposure to the disease.,it,68,exposure,83,FALSE,the disease,27,TRUE,no url
+development_new70,The child became immune to the disease. He received the vaccine for it. He avoided exposure to the disease.,it,68,he,1,FALSE,the disease,27,TRUE,no url
+development_new71,The child became immune to the disease. He received the vaccine for it. He avoided exposure to the disease.,it,68,the child,0,FALSE,the disease,27,TRUE,no url
+development_new72,The child was not vaccinated but did not get the disease. He received the vaccine for it. He avoided exposure to the disease.,it,86,exposure,101,FALSE,the disease,45,TRUE,no url
+development_new73,The child was not vaccinated but did not get the disease. He received the vaccine for it. He avoided exposure to the disease.,it,86,he,1,FALSE,the disease,45,TRUE,no url
+development_new74,The child was not vaccinated but did not get the disease. He received the vaccine for it. He avoided exposure to the disease.,it,86,the child,0,FALSE,the disease,45,TRUE,no url
+development_new75,The girl found the missing puzzle piece. She took apart the puzzle. she completed the puzzle.,she,41,the missing puzzle piece,15,FALSE,she,41,TRUE,no url
+development_new76,The girl found the missing puzzle piece. She took apart the puzzle. she completed the puzzle.,she,41,the puzzle,56,FALSE,she,41,TRUE,no url
+development_new77,The girl was angry. She took apart the puzzle. she completed the puzzle.,she,20,she,20,TRUE,the puzzle,35,FALSE,no url
+development_new78,The papers were disorganized. I made photocopies of them. he made photocophees of them.,he,1,i,17,TRUE,them,52,FALSE,no url
+development_new79,The papers were disorganized. I made photocopies of them. she made photocopshees of them.,she,58,i,17,TRUE,them,52,FALSE,no url
+development_new80,The papers were disorganized. I made photocopies of them. I put them into alphabetical order.,them,52,them,52,TRUE,alphabetical order,74,FALSE,no url
+development_new81,The papers were disorganized. I made photocopies of them. I put them into alphabetical order.,them,52,them,52,TRUE,photocopies,37,FALSE,no url
+development_new82,The papers were important. I put them into alphabetical order. I made photocopies of them.,them,33,i,16,FALSE,them,33,TRUE,no url
+development_new83,The papers were important. I put them into alphabetical order. I made photocopies of them.,them,33,alphabetical order,43,FALSE,them,33,TRUE,no url
+development_new84,The papers were important. I put them into alphabetical order. I made photocopies of them.,them,33,photocopies,70,FALSE,them,33,TRUE,no url
+development_new85,The seamstress pushed the threaded needle into the fabric. The thread went through it. The thread wrapped around the needle.,it,83,the threaded needle,22,FALSE,the fabric,47,TRUE,no url
+development_new86,The seamstress pushed the threaded needle into the fabric. The thread went through it. The thread wrapped around the needle.,it,83,the needle,113,FALSE,the fabric,47,TRUE,no url
+development_new87,The seamstress pushed the threaded needle into the fabric. The thread went through it. The thread wrapped around the needle.,it,83,the seamstress,0,FALSE,the fabric,47,TRUE,no url
+development_new88,The seamstress guided the thread through the eye of the needle. it went through the fabric. The thread wrapped around the needle.,it,64,the thread,22,TRUE,the needle,52,FALSE,no url
+development_new89,The seamstress guided the thread through the eye of the needle. it went through the fabric. The thread wrapped around the needle.,it,64,the thread,22,TRUE,the eye,41,FALSE,no url
+development_new90,The seamstress guided the thread through the eye of the needle. it went through the fabric. The thread wrapped around the needle.,it,64,the thread,22,TRUE,the seamstress,0,FALSE,no url
+development_new91,The tenant misplaced his keys to his apartment. His landlord unlocked the door. it repaired the door.,it,80,his keys,21,FALSE,his landlord,48,TRUE,no url
+development_new92,The tenant misplaced his keys to his apartment. His landlord unlocked the door. it repaired the door.,it,80,the door,70,FALSE,his landlord,48,TRUE,no url
+development_new93,The tenant misplaced his keys to his apartment. His landlord unlocked the door. it repaired the door.,it,80,the tenant,0,FALSE,his landlord,48,TRUE,no url
+development_new94,The tenant broke the door of his apartment. His landlord repaired it. His landlord unlocked the door.,it,66,his landlord,44,FALSE,the door,17,TRUE,no url
+development_new95,The tenant broke the door of his apartment. His landlord repaired it. His landlord unlocked the door.,it,66,the tenant,0,FALSE,the door,17,TRUE,no url
+development_new96,The woman shivered as she got out the pool. she wrapped herself in a towel. She poured herself some lemonade.,she,22,she,22,TRUE,herself,56,FALSE,no url
+development_new97,The woman shivered as she got out the pool. she wrapped herself in a towel. She poured herself some lemonade.,she,22,she,22,TRUE,some lemonade,95,FALSE,no url
+development_new98,The woman shivered as she got out the pool. she wrapped herself in a towel. She poured herself some lemonade.,she,22,she,22,TRUE,the pool,34,FALSE,no url
+development_new99,The woman shivered as she got out the pool. she wrapped herself in a towel. She poured herself some lemonade.,she,22,she,22,TRUE,a towel,67,FALSE,no url
+development_new100,The woman was thirsty after she jogged. she poured herself some lemonade. She wrapped herself in a towel.,she,28,she,28,TRUE,herself,51,FALSE,no url
+development_new101,The woman was thirsty after she jogged. she poured herself some lemonade. She wrapped herself in a towel.,she,28,she,28,TRUE,some lemonade,59,FALSE,no url
+development_new102,The woman was thirsty after she jogged. she poured herself some lemonade. She wrapped herself in a towel.,she,28,she,28,TRUE,a towel,97,FALSE,no url
+development_new103,My stomach growled. I was full from breakfast. he was full from breakfast.,he,47,my stomach,0,FALSE,i,20,TRUE,no url
+development_new104,My stomach growled. I was full from breakfast. she was full from breakfast.,she,47,my stomach,0,FALSE,i,20,TRUE,no url
+development_new105,My stomach was heavy. I was full from breakfast. I forgot to eat it.,it,65,i,22,FALSE,breakfast,38,TRUE,no url
+development_new106,I learned how to play the board game. My friend got the rules wrong. it explained the rules to me.,it,69,my friend,38,TRUE,i,0,FALSE,no url
+development_new107,I learned how to play the board game. My friend got the rules wrong. My friend explained they to me.,they,89,the rules,52,TRUE,me,34,FALSE,no url
+development_new108,The board game ended in a disaster. My friend explained the rules to me. My friend got they wrong.,they,87,the rules,56,TRUE,my friend,36,FALSE,no url
+development_new109,The board game ended in a disaster. My friend explained the rules to me. it got the rules wrong.,it,73,my friend,36,TRUE,me,12,FALSE,no url
+development_new110,The board game ended in a disaster. My friend explained the rules to me. it got the rules wrong.,it,73,my friend,36,TRUE,the board game,0,FALSE,no url
+development_new111,The police handcuffed the suspect. he called for backup. The suspect resisted arrest.,he,1,backup,49,FALSE,the police,0,TRUE,no url
+development_new112,The police handcuffed the suspect. she called for backup. The suspect resisted arrest.,she,35,backup,49,FALSE,the police,0,TRUE,no url
+development_new113,The police handcuffed the suspect. he called for backup. The suspect resisted arrest.,he,1,the suspect,22,FALSE,the police,0,TRUE,no url
+development_new114,The police handcuffed the suspect. she called for backup. The suspect resisted arrest.,she,35,the suspect,22,FALSE,the police,0,TRUE,no url
+development_new115,The police was hit by the suspect. he resisted arrest. The police called for backup.,he,1,the suspect,22,TRUE,the police,0,FALSE,no url
+development_new116,The police was hit by the suspect. she resisted arrest. The police called for backup.,she,35,the suspect,22,TRUE,the police,0,FALSE,no url
+development_new117,The police was hit by the suspect. he resisted arrest. The police called for backup.,he,1,the suspect,22,TRUE,backup,77,FALSE,no url
+development_new118,The police was hit by the suspect. she resisted arrest. The police called for backup.,she,35,the suspect,22,TRUE,backup,77,FALSE,no url
+development_new119,The girl was angry with her friend. The girl told a secret to he. The girl spread a rumor about her friend.,he,1,a rumor,82,FALSE,her friend,24,TRUE,no url
+development_new120,The girl was angry with her friend. The girl told a secret to she. The girl spread a rumor about her friend.,she,62,a rumor,82,FALSE,her friend,24,TRUE,no url
+development_new121,The girl was angry with her friend. The girl told a secret to he. The girl spread a rumor about her friend.,he,1,her friend,24,TRUE,a secret,50,FALSE,no url
+development_new122,The girl was angry with her friend. The girl told a secret to she. The girl spread a rumor about her friend.,she,62,her friend,24,TRUE,a secret,50,FALSE,no url
+development_new123,The girl trusted her friend. The girl told a secret to he. The girl spread a rumor about her friend.,he,1,a rumor,75,FALSE,her friend,17,TRUE,no url
+development_new124,The girl trusted her friend. The girl told a secret to she. The girl spread a rumor about her friend.,she,55,a rumor,75,FALSE,her friend,17,TRUE,no url
+development_new125,The girl trusted her friend. The girl told a secret to he. The girl spread a rumor about her friend.,he,1,a secret,43,FALSE,her friend,17,TRUE,no url
+development_new126,The girl trusted her friend. The girl told a secret to she. The girl spread a rumor about her friend.,she,55,a secret,43,FALSE,her friend,17,TRUE,no url
+development_new127,The fugitive was shot by the police. he dropped the case. The fugitive remained at large.,he,1,the police,25,TRUE,the fugitive,0,FALSE,no url
+development_new128,The fugitive was shot by the police. she dropped the case. The fugitive remained at large.,she,37,the police,25,TRUE,the fugitive,0,FALSE,no url
+development_new129,I tipped the bottle. The liquid in it poured out. The liquid in the bottle froze.,it,35,the bottle,9,TRUE,i,0,FALSE,no url
+development_new130,I put the bottle into a freezer. The liquid in the bottle froze. it in the bottle poured out.,it,65,the liquid,33,TRUE,i,0,FALSE,no url
+development_new131,I put the bottle into a freezer. The liquid in the bottle froze. it in the bottle poured out.,it,65,the liquid,33,TRUE,the bottle,6,FALSE,no url
+development_new132,I finished a page of the book. he turned to the next page. I ripped out the next page.,he,7,i,0,TRUE,a page,11,FALSE,no url
+development_new133,I finished a page of the book. she turned to the next page. I ripped out the next page.,she,6,i,0,TRUE,a page,11,FALSE,no url
+development_new134,I finished a page of the book. he turned to the next page. I ripped out the next page.,he,7,i,0,TRUE,the book,21,FALSE,no url
+development_new135,I finished a page of the book. she turned to the next page. I ripped out the next page.,she,6,i,0,TRUE,the book,21,FALSE,no url
+development_new136,I got angry while reading the book. he rhepped out the next page. I turned to the next page.,he,27,the book,26,FALSE,i,0,TRUE,no url
+development_new137,I got angry while reading the book. she rshepped out the next page. I turned to the next page.,she,36,the book,26,FALSE,i,0,TRUE,no url
+development_new138,My foot went numb. I shook it. I put my shoes on.,it,27,my shoes,37,FALSE,my foot,0,TRUE,no url
+development_new139,The teacher wanted to grade the students. She gave her students a pop quiz. she identified the students that were absent.,she,42,she,42,TRUE,the students,28,FALSE,no url
+development_new140,The teacher wanted to grade the students. She gave her students a pop quiz. she identified the students that were absent.,she,42,she,42,TRUE,her students,51,FALSE,no url
+development_new141,The teacher wanted to grade the students. She gave her students a pop quiz. she identified the students that were absent.,she,42,she,42,TRUE,a pop quiz,64,FALSE,no url
+development_new142,I dabbed the floor with a paper towel. it was permanently stained. I spilled juice on the floor.,it,20,the floor,9,TRUE,i,0,FALSE,no url
+development_new143,I dabbed the floor with a paper towel. it was permanently stained. I spilled juice on the floor.,it,20,the floor,9,TRUE,a paper towel,24,FALSE,no url
+development_new144,I replaced the floor with brand new tile. he sphelled juhece on the floor. The floor was permanently stained.,he,12,i,0,TRUE,the floor,11,FALSE,no url
+development_new145,I replaced the floor with brand new tile. she spshelled jushece on the floor. The floor was permanently stained.,she,42,i,0,TRUE,the floor,11,FALSE,no url
+development_new146,I replaced the floor with brand new tile. he sphelled juhece on the floor. The floor was permanently stained.,he,12,i,0,TRUE,juice,-1,FALSE,no url
+development_new147,I replaced the floor with brand new tile. she spshelled jushece on the floor. The floor was permanently stained.,she,42,i,0,TRUE,juice,-1,FALSE,no url
+development_new148,The man begged for forgiveness. The woman joked around with him. she took pity on him.,she,65,forgiveness,19,FALSE,the woman,32,TRUE,no url
+development_new149,The man begged for forgiveness. The woman joked around with him. The woman took pity on he.,he,1,the man,0,FALSE,him,60,TRUE,no url
+development_new150,The man laughed at comedy. The woman joked around with him. The woman took pity on he.,he,1,him,55,TRUE,comedy,19,FALSE,no url
+development_new151,The man laughed at comedy. The woman joked around with him. she took pity on him.,she,60,the woman,27,TRUE,the man,0,FALSE,no url
+development_new152,I received a package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,25,my curiosity,97,FALSE,i,0,TRUE,no url
+development_new153,I received a package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,34,my curiosity,97,FALSE,i,0,TRUE,no url
+development_new154,I received a package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,25,the mail,24,FALSE,i,0,TRUE,no url
+development_new155,I received a package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,34,the mail,24,FALSE,i,0,TRUE,no url
+development_new156,I received a package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,25,the package,42,FALSE,i,0,TRUE,no url
+development_new157,I received a package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,34,the package,42,FALSE,i,0,TRUE,no url
+development_new158,I received a package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,25,the post office,-1,FALSE,i,0,TRUE,no url
+development_new159,I received a package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,34,the post office,-1,FALSE,i,0,TRUE,no url
+development_new160,I received someone's package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,33,my curiosity,105,FALSE,i,0,TRUE,no url
+development_new161,I received someone's package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,42,my curiosity,105,FALSE,i,0,TRUE,no url
+development_new162,I received someone's package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,33,the mail,32,FALSE,i,0,TRUE,no url
+development_new163,I received someone's package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,42,the mail,32,FALSE,i,0,TRUE,no url
+development_new164,I received someone's package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,33,someone's package,11,FALSE,i,0,TRUE,no url
+development_new165,I received someone's package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,42,someone's package,11,FALSE,i,0,TRUE,no url
+development_new166,I received someone's package in the mail. he took the package to the post offhece. The package triggered my curiosity.,he,33,the package,50,FALSE,i,0,TRUE,no url
+development_new167,I received someone's package in the mail. she took the package to the post offshece. The package triggered my curiosity.,she,42,the package,50,FALSE,i,0,TRUE,no url
+development_new168,I avoided giving a straight answer to the question. it made me uncomfortable. I wanted to be honest.,it,52,the question,38,TRUE,i,0,FALSE,no url
+development_new169,I avoided giving a straight answer to the question. it made me uncomfortable. I wanted to be honest.,it,52,the question,38,TRUE,me,60,FALSE,no url
+development_new170,I promised to give a straight answer to the question. it made me uncomfortable. I wanted to be honest.,it,54,the question,40,TRUE,i,0,FALSE,no url
+development_new171,I promised to give a straight answer to the question. it made me uncomfortable. I wanted to be honest.,it,54,me,62,FALSE,the question,40,TRUE,no url
+development_new172,A man cut in front of me in the long line. I confronted him. I smiled at he.,he,29,i,10,FALSE,him,56,TRUE,no url
+development_new173,A man cut in front of me in the long line. I confronted him. I smiled at he.,he,29,me,22,FALSE,him,56,TRUE,no url
+development_new174,A man cut in front of me in the long line. I confronted him. I smiled at he.,he,29,the long line,28,FALSE,him,56,TRUE,no url
+development_new175,A man cut in front of me in the long line. I confronted him. I smiled at he.,he,29,front,13,FALSE,him,56,TRUE,no url
+development_new176,A man let me in front of the long line. I confronted him. I smiled at he.,he,26,him,53,TRUE,i,13,FALSE,no url
+development_new177,A man let me in front of the long line. I confronted him. he confronted hhem.,he,26,i,13,TRUE,me,10,FALSE,no url
+development_new178,A man let me in front of the long line. I confronted him. she confronted hshem.,she,58,i,13,TRUE,me,10,FALSE,no url
+development_new179,A man let me in front of the long line. I confronted him. he confronted hhem.,he,26,i,13,TRUE,the long line,25,FALSE,no url
+development_new180,A man let me in front of the long line. I confronted him. she confronted hshem.,she,58,i,13,TRUE,the long line,25,FALSE,no url
+development_new181,A man let me in front of the long line. I confronted him. he confronted hhem.,he,26,i,13,TRUE,front,16,FALSE,no url
+development_new182,A man let me in front of the long line. I confronted him. she confronted hshem.,she,58,i,13,TRUE,front,16,FALSE,no url
+development_new183,I rubbed the soap between my hands. they went numb. The soap foamed.,they,36,my hands,26,TRUE,i,0,FALSE,no url
+development_new184,The man became disabled. His family cut off contact with him. His family offered he financial support.,he,1,him,57,TRUE,financial support,84,FALSE,no url
+development_new185,The man became disabled. His family cut off contact with him. His family offered he financial support.,he,1,him,57,TRUE,contact,44,FALSE,no url
+development_new186,The man became disabled. His family cut off contact with him. His family offered he financial support.,he,1,him,57,TRUE,his family,25,FALSE,no url
+development_new187,The man became offensive. His family offered him financial support. His family cut off contact with he.,he,1,him,45,TRUE,financial support,49,FALSE,no url
+development_new188,The man became offensive. His family offered him financial support. His family cut off contact with he.,he,1,him,45,TRUE,contact,87,FALSE,no url
+development_new189,The man became offensive. His family offered him financial support. His family cut off contact with he.,he,1,him,45,TRUE,his family,26,FALSE,no url
+development_new190,The skunk sprayed the dog. it emitted a foul smell. The skunk roamed the woods.,it,27,the dog,18,TRUE,the skunk,0,FALSE,no url
+development_new191,The skunk sprayed the dog. it emitted a foul smell. The skunk roamed the woods.,it,27,the dog,18,TRUE,the woods,69,FALSE,no url
+development_new192,The parents recognized their daughter's creativity. They encouraged her to become an artist. They taught she how to ride a bike.,she,105,her,68,TRUE,the parents,0,FALSE,no url
+development_new193,The parents recognized their daughter's creativity. They encouraged her to become an artist. They taught she how to ride a bike.,she,105,her,68,TRUE,their daughter's creativity,23,FALSE,no url
+development_new194,The parents recognized their daughter's creativity. They encouraged her to become an artist. They taught she how to ride a bike.,she,105,her,68,TRUE,they,52,FALSE,no url
+development_new195,The parents recognized their daughter's creativity. They encouraged her to become an artist. They taught she how to ride a bike.,she,105,her,68,TRUE,a bike,121,FALSE,no url
+development_new196,The parents recognized their daughter's interest in sports. They encouraged her to become an artist. They taught she how to ride a bike.,she,113,her,76,TRUE,the parents,0,FALSE,no url
+development_new197,The parents recognized their daughter's interest in sports. They encouraged her to become an artist. they taught her how to ride a bike.,they,60,they,60,TRUE,their daughter's interest,23,FALSE,no url
+development_new198,The parents recognized their daughter's interest in sports. They encouraged her to become an artist. they taught her how to ride a bike.,they,60,they,60,TRUE,sports,52,FALSE,no url
+development_new199,The parents recognized their daughter's interest in sports. They encouraged her to become an artist. they taught her how to ride a bike.,they,60,they,60,TRUE,a bike,129,FALSE,no url
+development_new200,The boy turned the lid on the jar. it became warm. The lid came off.,it,35,the boy,0,FALSE,the jar,26,TRUE,no url
+development_new201,The woman received a diploma. She enrolled in college. She graduated from it.,it,74,college,46,TRUE,a diploma,19,FALSE,no url
+development_new202,The woman received a diploma. She enrolled in college. she graduated from college.,she,30,she,30,TRUE,the woman,0,FALSE,no url
+development_new203,The woman aimed for a diploma. She enrolled in college. she graduated from college.,she,31,a diploma,20,FALSE,she,31,TRUE,no url
+development_new204,The woman aimed for a diploma. She enrolled in college. she graduated from college.,she,31,she,31,TRUE,college,47,FALSE,no url
+development_new205,I came upon a puddle on the sidewalk. he leapt over the puddle. I played in the puddle.,he,25,the puddle,52,FALSE,i,0,TRUE,no url
+development_new206,I came upon a puddle on the sidewalk. she leapt over the puddle. I played in the puddle.,she,38,the puddle,52,FALSE,i,0,TRUE,no url
+development_new207,I came upon a puddle on the sidewalk. he leapt over the puddle. I played in the puddle.,he,25,the sidewalk,24,FALSE,i,0,TRUE,no url
+development_new208,I came upon a puddle on the sidewalk. she leapt over the puddle. I played in the puddle.,she,38,the sidewalk,24,FALSE,i,0,TRUE,no url
+development_new209,The puddle on the sidewalk looked fun. I leapt over it. I played in the puddle.,it,52,the puddle,0,TRUE,i,19,FALSE,no url
+development_new210,The audience booed the comedian off the stage. He entertained they. He told a racist joke.,they,62,the audience,0,TRUE,a racist joke,76,FALSE,no url
+development_new211,The audience booed the comedian off the stage. He entertained they. He told a racist joke.,they,62,the audience,0,TRUE,the comedian,19,FALSE,no url
+development_new212,The audience booed the comedian off the stage. He entertained they. He told a racist joke.,they,62,the audience,0,TRUE,he,1,FALSE,no url
+development_new213,The audience applauded the comedian on stage. He entertained they. He told a racist joke.,they,61,the audience,0,TRUE,stage,39,FALSE,no url
+development_new214,The audience applauded the comedian on stage. He entertained they. He told a racist joke.,they,61,the audience,0,TRUE,a racist joke,75,FALSE,no url
+development_new215,The audience applauded the comedian on stage. He entertained they. He told a racist joke.,they,61,the audience,0,TRUE,the comedian,23,FALSE,no url
+development_new216,The dust came off the desk. I removed the books from it. I wiped the desk with a cloth.,it,53,the desk,18,TRUE,the books,38,FALSE,no url
+development_new217,The dust came off the desk. I removed the books from it. I wiped the desk with a cloth.,it,53,the desk,18,TRUE,i,28,FALSE,no url
+development_new218,The dust came off the desk. I removed the books from it. I wiped the desk with a cloth.,it,53,the desk,18,TRUE,a cloth,79,FALSE,no url
+development_new219,The desk was light. I wiped it with a cloth. I removed the books from the desk.,it,28,the books,55,FALSE,the desk,0,TRUE,no url
+development_new220,The desk was light. I wiped it with a cloth. I removed the books from the desk.,it,28,i,14,FALSE,the desk,0,TRUE,no url
+development_new221,The teacher threw the chewing gum at the student. he spit out the gum. The gum stuck to the student's shoe.,he,1,the student,37,TRUE,the gum,62,FALSE,no url
+development_new222,The teacher threw the chewing gum at the student. she spit out the gum. The gum stuck to the student's shoe.,she,50,the student,37,TRUE,the gum,62,FALSE,no url
+development_new223,The teacher threw the chewing gum at the student. he spit out the gum. The gum stuck to the student's shoe.,he,1,the student,37,TRUE,the chewing gum,18,FALSE,no url
+development_new224,The teacher threw the chewing gum at the student. she spit out the gum. The gum stuck to the student's shoe.,she,50,the student,37,TRUE,the chewing gum,18,FALSE,no url
+development_new225,The teacher threw the chewing gum at the student. he spit out the gum. The gum stuck to the student's shoe.,he,1,the student,37,TRUE,the teacher,0,FALSE,no url
+development_new226,The teacher threw the chewing gum at the student. she spit out the gum. The gum stuck to the student's shoe.,she,50,the student,37,TRUE,the teacher,0,FALSE,no url
+development_new227,The chair squeaked. The man carried it to his office. The man scooted the chair closer to his desk.,it,36,his desk,90,FALSE,the chair,0,TRUE,no url
+development_new228,The chair squeaked. The man carried it to his office. The man scooted the chair closer to his desk.,it,36,the man,20,FALSE,the chair,0,TRUE,no url
+development_new229,The chair fell. The man carried it to his office. The man scooted the chair closer to his desk.,it,32,the chair,0,TRUE,his desk,86,FALSE,no url
+development_new230,The chair fell. The man carried it to his office. The man scooted the chair closer to his desk.,it,32,the chair,0,TRUE,the man,16,FALSE,no url
+development_new231,The mother suspected that her son was lying. He refused to talk to her. he avoided making eye contact with her.,he,1,he,1,TRUE,eye contact,90,FALSE,no url
+development_new232,The mother suspected that her son was lying. He refused to talk to her. He avoided making eye contact with she.,she,107,her,7,TRUE,the mother,0,FALSE,no url
+development_new233,The mother suspected that her son was upset. He refused to talk to her. He avoided making eye contact with she.,she,107,her,7,TRUE,eye contact,90,FALSE,no url
+development_new234,The mother suspected that her son was upset. He refused to talk to her. He avoided making eye contact with she.,she,107,her,7,TRUE,the mother,0,FALSE,no url
+development_new235,The mother suspected that her son was upset. He refused to talk to her. He avoided making eye contact with she.,she,107,her,7,TRUE,he,1,FALSE,no url
+development_new236,A crater formed on the moon. A comet passed by it. A comet collided with the moon.,it,47,a comet,29,FALSE,the moon,19,TRUE,no url
+development_new237,A crater did not form on the moon. A comet collided with it. A comet passed by the moon.,it,53,a comet,35,FALSE,the moon,25,TRUE,no url
+development_new238,The woman felt ashamed of scar on her face. She hid the scar with makeup. she explained the scar to strangers.,she,44,the woman,0,FALSE,she,44,TRUE,no url
+development_new239,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid he with makeup.,he,1,her face,34,FALSE,the scar,52,TRUE,no url
+development_new240,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid she with makeup.,she,44,her face,34,FALSE,the scar,52,TRUE,no url
+development_new241,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid he with makeup.,he,1,scar,26,FALSE,the scar,52,TRUE,no url
+development_new242,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid she with makeup.,she,44,scar,26,FALSE,the scar,52,TRUE,no url
+development_new243,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid he with makeup.,he,1,makeup,66,FALSE,the scar,52,TRUE,no url
+development_new244,The woman felt ashamed of scar on her face. She hid the scar with makeup. She hid she with makeup.,she,44,makeup,66,FALSE,the scar,52,TRUE,no url
+development_new245,The woman was questioned about the scar on her face. She hid he with makeup. She explained the scar to strangers.,he,1,her face,43,FALSE,the scar,31,TRUE,no url
+development_new246,The woman was questioned about the scar on her face. She hid she with makeup. She explained the scar to strangers.,she,53,her face,43,FALSE,the scar,31,TRUE,no url
+development_new247,The woman was questioned about the scar on her face. She hid he with makeup. She explained the scar to strangers.,he,1,makeup,69,FALSE,the scar,31,TRUE,no url
+development_new248,The woman was questioned about the scar on her face. She hid she with makeup. She explained the scar to strangers.,she,53,makeup,69,FALSE,the scar,31,TRUE,no url
+development_new249,The woman was questioned about the scar on her face. She hid he with makeup. She explained the scar to strangers.,he,1,strangers,103,FALSE,the scar,31,TRUE,no url
+development_new250,The woman was questioned about the scar on her face. She hid she with makeup. She explained the scar to strangers.,she,53,strangers,103,FALSE,the scar,31,TRUE,no url
+development_new251,The woman was questioned about the scar on her face. She hid he with makeup. She explained the scar to strangers.,he,1,she,53,FALSE,the scar,31,TRUE,no url
+development_new252,The woman was questioned about the scar on her face. She hid she with makeup. She explained the scar to strangers.,she,53,she,53,FALSE,the scar,31,TRUE,no url
+development_new253,The doctor x-rayed the patient's arm. He put it in a cast. He discovered that the patient's arm was broken.,it,45,the doctor,0,FALSE,the patient's arm,19,TRUE,no url
+development_new254,The doctor x-rayed the patient's arm. He put it in a cast. He discovered that the patient's arm was broken.,it,45,a cast,51,FALSE,the patient's arm,19,TRUE,no url
+development_new255,The doctor discovered the patient's arm was broken. He discovered that it was broken. He put the patient's arm in a cast.,it,71,the patient's arm,22,TRUE,the doctor,0,FALSE,no url
+development_new256,The doctor discovered the patient's arm was broken. He discovered that it was broken. He put the patient's arm in a cast.,it,71,the patient's arm,22,TRUE,a cast,114,FALSE,no url
+development_new257,The boy cut his hand in the sand. He was building a sand castle. he was collecting seashells in the sand.,he,1,a sand castle,50,FALSE,he,1,TRUE,no url
+development_new258,The boy cut his hand in the sand. He was building a sand castle. he was collecting seashells in the sand.,he,1,the boy,0,FALSE,he,1,TRUE,no url
+development_new259,The boy cut his hand in the sand. He was building a sand castle. he was collecting seashells in the sand.,he,1,his hand,12,FALSE,he,1,TRUE,no url
+development_new260,The boy cut his hand in the sand. He was building a sand castle. he was collecting seashells in the sand.,he,1,the sand,24,FALSE,he,1,TRUE,no url
+development_new261,The woman upgraded her computer hardware. She deleted old files on the computer. She installed new software on it.,it,111,new software,95,FALSE,the computer,67,TRUE,no url
+development_new262,The woman upgraded her computer hardware. She deleted old files on the computer. She installed new software on it.,it,111,she,42,FALSE,the computer,67,TRUE,no url
+development_new263,The woman upgraded her computer hardware. She deleted old files on the computer. She installed new software on it.,it,111,her computer hardware,19,FALSE,the computer,67,TRUE,no url
+development_new264,The woman upgraded her computer hardware. She deleted old files on the computer. She installed new software on it.,it,111,old files,54,FALSE,the computer,67,TRUE,no url
+development_new265,The woman wanted to sell her computer hardware. She installed new software on the computer. She deleted old files on it.,it,117,the computer,78,TRUE,new software,62,FALSE,no url
+development_new266,The woman wanted to sell her computer hardware. She installed new software on the computer. she deleted old files on the computer.,she,48,she,48,TRUE,her computer hardware,25,FALSE,no url
+development_new267,The woman wanted to sell her computer hardware. She installed new software on the computer. she deleted old files on the computer.,she,48,she,48,TRUE,old files,104,FALSE,no url
+development_new268,The baby was wailing in his crib. The mother picked up he. The baby crawled to the mother.,he,1,the mother,34,FALSE,the baby,0,TRUE,no url
+development_new269,The baby was wailing in his crib. The mother picked up she. The baby crawled to the mother.,she,55,the mother,34,FALSE,the baby,0,TRUE,no url
+development_new270,The baby's name was called. The mother picked up the baby. The baby crawled to it.,it,79,the baby's name,0,FALSE,the mother,28,TRUE,no url
+development_new271,The rocket flew up into the sky. The girl designed it. The girl launched it.,it,51,the rocket,0,FALSE,it,51,TRUE,no url
+development_new272,The rocket flew up into the sky. The girl designed it. The girl launched it.,it,51,the girl,33,FALSE,it,51,TRUE,no url
+development_new273,The rocket looked pretty. The girl designed it. The girl launched it.,it,44,it,44,TRUE,the rocket,0,FALSE,no url
+development_new274,The boy murmured his reply to his mother. she told him to whisper. His mother told him to speak up.,she,42,his mother,30,TRUE,his reply,17,FALSE,no url
+development_new275,The boy murmured his reply to his mother. she told him to whisper. His mother told him to speak up.,she,42,his mother,30,TRUE,the boy,0,FALSE,no url
+development_new276,The boy yelled his reply to his mother. she told him to speak up. His mother told him to whisper.,she,40,his mother,28,TRUE,his reply,15,FALSE,no url
+development_new277,The boy yelled his reply to his mother. she told him to speak up. His mother told him to whisper.,she,40,his mother,28,TRUE,the boy,0,FALSE,no url
+development_new278,The vase broke. I stenciled it. I glued it back together.,it,28,i,16,FALSE,it,28,TRUE,no url
+development_new279,The vase had a nice shape. I glued it back together. he glued het back together.,he,1,i,16,TRUE,it,35,FALSE,no url
+development_new280,The vase had a nice shape. I glued it back together. she glued shet back together.,she,53,i,16,TRUE,it,35,FALSE,no url
+development_new281,The vase had a nice shape. I glued it back together. I stenciled it.,it,35,the vase,0,FALSE,it,35,TRUE,no url
+development_new282,The man had lipstick on his cheek. The woman made him blush. The woman kissed he.,he,1,him,50,TRUE,the woman,35,FALSE,no url
+development_new283,The man had lipstick on his cheek. The woman made him blush. she kissed him.,she,61,the woman,35,TRUE,his cheek,24,FALSE,no url
+development_new284,The man had lipstick on his cheek. The woman made him blush. she kissed him.,she,61,the woman,35,TRUE,the man,0,FALSE,no url
+development_new285,The man had a grin on his face. The woman kissed him. she made him blush.,she,54,his face,22,FALSE,the woman,32,TRUE,no url
+development_new286,The man had a grin on his face. The woman kissed him. The woman made he blush.,he,1,a grin,12,FALSE,him,49,TRUE,no url
+development_new287,The woman deleted the email. The sender tried to solicit money from her. it requested a response from her.,it,54,the sender,29,TRUE,the email,18,FALSE,no url
+development_new288,The woman deleted the email. The sender tried to solicit money from her. The sender requested a response from she.,she,110,her,68,TRUE,a response,94,FALSE,no url
+development_new289,The woman deleted the email. The sender tried to solicit money from her. it requested a response from her.,it,54,the sender,29,TRUE,money,57,FALSE,no url
+development_new290,The woman read the email. The sender tried to solicit money from her. it requested a response from her.,it,51,the sender,26,TRUE,the email,15,FALSE,no url
+development_new291,The woman read the email. The sender tried to solicit money from her. The sender requested a response from she.,she,107,her,65,TRUE,a response,91,FALSE,no url
+development_new292,The woman read the email. The sender tried to solicit money from her. The sender requested a response from she.,she,107,her,65,TRUE,money,54,FALSE,no url
+development_new293,The student's answer on the exam was incorrect. The teacher subtracted points off the student's grade. The teacher added bonus points to it.,it,137,the student's grade,82,TRUE,points,71,FALSE,no url
+development_new294,The student's answer on the exam was incorrect. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,the teacher,48,TRUE,bonus points,-1,FALSE,no url
+development_new295,The student's answer on the exam was incorrect. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,103,the teacher,48,TRUE,bonus points,-1,FALSE,no url
+development_new296,The student's answer on the exam was incorrect. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,the teacher,48,TRUE,the student's answer,0,FALSE,no url
+development_new297,The student's answer on the exam was incorrect. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,103,the teacher,48,TRUE,the student's answer,0,FALSE,no url
+development_new298,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,the student's grade,86,FALSE,the teacher,52,TRUE,no url
+development_new299,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,107,the student's grade,86,FALSE,the teacher,52,TRUE,no url
+development_new300,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,points,75,FALSE,the teacher,52,TRUE,no url
+development_new301,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,107,points,75,FALSE,the teacher,52,TRUE,no url
+development_new302,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,bonus points,-1,FALSE,the teacher,52,TRUE,no url
+development_new303,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,107,bonus points,-1,FALSE,the teacher,52,TRUE,no url
+development_new304,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. he subtracted points off the student's grade.,he,1,the student's answer,0,FALSE,the teacher,52,TRUE,no url
+development_new305,The student's answer on the exam was extraordinary. The teacher subtracted points off the student's grade. she subtracted points off the student's grade.,she,107,the student's answer,0,FALSE,the teacher,52,TRUE,no url
+development_new306,The girl wanted to demonstrate proper etiquette. She put her napkin on her lap before eating. She threw away it after eating.,it,109,her lap,71,FALSE,her napkin,57,TRUE,no url
+development_new307,The girl wanted to demonstrate proper etiquette. She put her napkin on her lap before eating. She threw away it after eating.,it,109,proper etiquette,31,FALSE,her napkin,57,TRUE,no url
+development_new308,The girl wanted to demonstrate proper etiquette. She put her napkin on her lap before eating. She threw away it after eating.,it,109,she,49,FALSE,her napkin,57,TRUE,no url
+development_new309,The girl demonstrated poor etiquette. She threw away her napkin after eating. She put it on her lap before eating.,it,86,her napkin,53,TRUE,poor etiquette,22,FALSE,no url
+development_new310,The girl demonstrated poor etiquette. She threw away her napkin after eating. She put it on her lap before eating.,it,86,her napkin,53,TRUE,her lap,92,FALSE,no url
+development_new311,The girl demonstrated poor etiquette. She threw away her napkin after eating. She put it on her lap before eating.,it,86,her napkin,53,TRUE,she,38,FALSE,no url
+development_new312,The detective flashed his badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,the detective,0,FALSE,the police officer,35,TRUE,no url
+development_new313,The detective flashed his badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,the detective,0,FALSE,the police officer,35,TRUE,no url
+development_new314,The detective flashed his badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,his badge,22,FALSE,the police officer,35,TRUE,no url
+development_new315,The detective flashed his badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,his badge,22,FALSE,the police officer,35,TRUE,no url
+development_new316,The detective flashed his badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,the crime scene,136,FALSE,the police officer,35,TRUE,no url
+development_new317,The detective flashed his badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,the crime scene,136,FALSE,the police officer,35,TRUE,no url
+development_new318,The detective flashed his fake badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,the detective,0,FALSE,the police officer,40,TRUE,no url
+development_new319,The detective flashed his fake badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,the detective,0,FALSE,the police officer,40,TRUE,no url
+development_new320,The detective flashed his fake badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,his fake badge,22,FALSE,the police officer,40,TRUE,no url
+development_new321,The detective flashed his fake badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,his fake badge,22,FALSE,the police officer,40,TRUE,no url
+development_new322,The detective flashed his fake badge to the police officer. he confiscated the detective's badge. The police officer let the detective enter the crime scene.,he,1,the detective's badge,75,FALSE,the police officer,40,TRUE,no url
+development_new323,The detective flashed his fake badge to the police officer. she confiscated the detective's badge. The police officer let the detective enter the crime scene.,she,17,the detective's badge,75,FALSE,the police officer,40,TRUE,no url
+development_new324,The girl wanted to make her mother happy. she picked a flower for her mother. The girl ate the cookies her mother baked.,she,42,the girl,0,TRUE,her mother,24,FALSE,no url
+development_new325,The girl wanted to make her mother happy. she picked a flower for her mother. The girl ate the cookies her mother baked.,she,42,the girl,0,TRUE,a flower,53,FALSE,no url
+development_new326,The girl wanted to make her mother happy for her effort. she picked a flower for her mother. The girl ate the cookies her mother baked.,she,57,the girl,0,TRUE,her mother,24,FALSE,no url
+development_new327,The girl wanted to make her mother happy for her effort. she picked a flower for her mother. The girl ate the cookies her mother baked.,she,57,a flower,68,FALSE,the girl,0,TRUE,no url
+development_new328,The girl wanted to make her mother happy for her effort. The girl picked a flower for she. The girl ate the cookies her mother baked.,she,86,her effort,45,FALSE,her mother,24,TRUE,no url
+development_new329,The stranger cried out to me in a foreign language. I stopped to chat with him. I stared blankly at he.,he,1,i,15,FALSE,him,75,TRUE,no url
+development_new330,The stranger cried out to me in a foreign language. I stopped to chat with him. he stopped to chat wheth hhem.,he,1,me,26,FALSE,i,15,TRUE,no url
+development_new331,The stranger cried out to me in a foreign language. I stopped to chat with him. she stopped to chat wsheth hshem.,she,80,me,26,FALSE,i,15,TRUE,no url
+development_new332,The stranger cried out to me in a foreign language. I stopped to chat with him. he stopped to chat wheth hhem.,he,1,the stranger,0,FALSE,i,15,TRUE,no url
+development_new333,The stranger cried out to me in a foreign language. I stopped to chat with him. she stopped to chat wsheth hshem.,she,80,the stranger,0,FALSE,i,15,TRUE,no url
+development_new334,The stranger shouted insults at me in a foreign language. I stared blankly at him. he stared blankly at hhem.,he,1,insults,21,FALSE,i,21,TRUE,no url
+development_new335,The stranger shouted insults at me in a foreign language. I stared blankly at him. she stared blankly at hshem.,she,83,insults,21,FALSE,i,21,TRUE,no url
+development_new336,The stranger shouted insults at me in a foreign language. I stared blankly at him. I stopped to chat with he.,he,1,me,32,FALSE,him,78,TRUE,no url
+development_new337,The stranger shouted insults at me in a foreign language. I stared blankly at him. I stopped to chat with he.,he,1,the stranger,0,FALSE,him,78,TRUE,no url
+development_new338,The man uncovered incriminating evidence against his enemy. he avoided his enemy. The man blackmailed his enemy.,he,1,his enemy,49,FALSE,the man,0,TRUE,no url
+development_new339,The man discovered his enemy uncovered incriminating evidence against him. he avoided his enemy. The man blackmailed his enemy.,he,1,his enemy,19,FALSE,the man,0,TRUE,no url
+development_new340,The man discovered his enemy uncovered incriminating evidence against him. The man avoided he. The man blackmailed his enemy.,he,1,incriminating evidence,39,FALSE,his enemy,19,TRUE,no url
+development_new341,The man discovered his enemy uncovered incriminating evidence against him. The man avoided she. The man blackmailed his enemy.,she,91,incriminating evidence,39,FALSE,his enemy,19,TRUE,no url
+development_new342,The girl pushed herself off the top of the slide. She glided down it. She crawled up the slide.,it,66,the slide,39,TRUE,herself,16,FALSE,no url
+development_new343,The girl pushed herself off the top of the slide. She glided down it. She crawled up the slide.,it,66,the slide,39,TRUE,the top,28,FALSE,no url
+development_new344,The girl pushed herself off the top of the slide. She glided down it. She crawled up the slide.,it,66,the slide,39,TRUE,she,11,FALSE,no url
+development_new345,The girl wanted to get on top of the slide. She glided down it. She crawled up the slide.,it,60,she,44,FALSE,the slide,33,TRUE,no url
+development_new346,The girl wanted to get on top of the slide. She glided down it. She crawled up the slide.,it,60,the girl,0,FALSE,the slide,33,TRUE,no url
+development_new347,The child disobeyed her parents. they punished her. Her parents hugged her.,they,33,her parents,20,TRUE,her,20,FALSE,no url
+development_new348,The child obeyed her parents. they hugged her. Her parents punished her.,they,30,her,17,FALSE,her parents,17,TRUE,no url
+development_new349,The woman visited her family. She distrusted them. She missed them.,them,45,she,30,FALSE,them,45,TRUE,no url
+development_new350,The woman visited her family. She distrusted them. She missed them.,them,45,her family,18,FALSE,them,45,TRUE,no url
+development_new351,The woman refused to visit her family. She distrusted them. She missed them.,them,54,them,54,TRUE,she,39,FALSE,no url
+development_new352,The woman refused to visit her family. She distrusted them. she missed them.,she,39,she,39,TRUE,her family,27,FALSE,no url
+development_new353,The balloon expanded. I blew into it. he blew hento het.,he,1,the balloon,0,FALSE,i,22,TRUE,no url
+development_new354,The balloon expanded. I blew into it. she blew shento shet.,she,38,the balloon,0,FALSE,i,22,TRUE,no url
+development_new355,The balloon poped. I pricked it. he prhecked het.,he,1,i,19,TRUE,the balloon,0,FALSE,no url
+development_new356,The balloon poped. I pricked it. she prshecked shet.,she,33,i,19,TRUE,the balloon,0,FALSE,no url
+development_new357,I snapped at the cat. It scratched me. I petted it.,it,22,the cat,13,FALSE,it,22,TRUE,no url
+development_new358,I snapped at the cat. It scratched me. I petted it.,it,22,i,0,FALSE,it,22,TRUE,no url
+development_new359,The button on my shirt fell off. I sewed it back on. I glued the button back on.,it,41,the button,0,TRUE,my shirt,14,FALSE,no url
+development_new360,The button on my laptop fell off. I sewed it back on. I glued the button back on.,it,42,i,34,FALSE,the button,0,TRUE,no url
+development_new361,The police officer pulled over the celebrity. The celebrity sued he. The celebrity offered the officer a bribe.,he,1,the police officer,0,TRUE,the celebrity,31,FALSE,no url
+development_new362,The police officer pulled over the celebrity. The celebrity sued she. The celebrity offered the officer a bribe.,she,65,the police officer,0,TRUE,the celebrity,31,FALSE,no url
+development_new363,The police officer pulled over the celebrity. he sued the police officer. The celebrity offered the officer a bribe.,he,1,the celebrity,31,TRUE,a bribe,108,FALSE,no url
+development_new364,The police officer pulled over the celebrity. she sued the police officer. The celebrity offered the officer a bribe.,she,46,the celebrity,31,TRUE,a bribe,108,FALSE,no url
+development_new365,The police officer pulled the celebrity by the wrist. he offered the officer a bribe. The celebrity sued the police officer.,he,1,the celebrity,26,TRUE,the wrist,43,FALSE,no url
+development_new366,The police officer pulled the celebrity by the wrist. she offered the officer a bribe. The celebrity sued the police officer.,she,54,the celebrity,26,TRUE,the wrist,43,FALSE,no url
+development_new367,The police officer pulled the celebrity by the wrist. he offered the officer a bribe. The celebrity sued the police officer.,he,1,the celebrity,26,TRUE,a bribe,77,FALSE,no url
+development_new368,The police officer pulled the celebrity by the wrist. she offered the officer a bribe. The celebrity sued the police officer.,she,54,the celebrity,26,TRUE,a bribe,77,FALSE,no url
+development_new369,The police officer pulled the celebrity by the wrist. he offered the officer a bribe. The celebrity sued the police officer.,he,1,the celebrity,26,TRUE,the officer,65,FALSE,no url
+development_new370,The police officer pulled the celebrity by the wrist. she offered the officer a bribe. The celebrity sued the police officer.,she,54,the celebrity,26,TRUE,the officer,65,FALSE,no url
+development_new371,The man revealed personal information to the therapist. He trusted he. He disagreed with the therapist.,he,1,the therapist,41,TRUE,he,1,FALSE,no url
+development_new372,The man revealed personal information to the therapist. He trusted she. He disagreed with the therapist.,she,67,the therapist,41,TRUE,he,1,FALSE,no url
+development_new373,The man revealed personal information to the therapist. He trusted he. He disagreed with the therapist.,he,1,the therapist,41,TRUE,personal information,17,FALSE,no url
+development_new374,The man revealed personal information to the therapist. He trusted she. He disagreed with the therapist.,she,67,the therapist,41,TRUE,personal information,17,FALSE,no url
+development_new375,The man withheld personal information from the therapist. He trusted he. He disagreed with the therapist.,he,1,he,1,FALSE,the therapist,43,TRUE,no url
+development_new376,The man withheld personal information from the therapist. He trusted she. He disagreed with the therapist.,she,69,he,1,FALSE,the therapist,43,TRUE,no url
+development_new377,The man withheld personal information from the therapist. He trusted he. He disagreed with the therapist.,he,1,personal information,17,FALSE,the therapist,43,TRUE,no url
+development_new378,The man withheld personal information from the therapist. He trusted she. He disagreed with the therapist.,she,69,personal information,17,FALSE,the therapist,43,TRUE,no url
+development_new379,The man fell unconscious. The assailant took the man's wallet. he took the man's wallet.,he,1,the assailant,26,TRUE,the head,-1,FALSE,no url
+development_new380,The man fell unconscious. The assailant took the man's wallet. she took the man's wallet.,she,63,the assailant,26,TRUE,the head,-1,FALSE,no url
+development_new381,The man fell unconscious. The assailant took the man's wallet. he took the man's wallet.,he,1,the assailant,26,TRUE,the man's wallet,45,FALSE,no url
+development_new382,The man fell unconscious. The assailant took the man's wallet. she took the man's wallet.,she,63,the assailant,26,TRUE,the man's wallet,45,FALSE,no url
+development_new383,The man lost the credit card. The assailant struck he in the head. The assailant took the man's wallet.,he,1,the assailant,30,FALSE,the man,0,TRUE,no url
+development_new384,The man lost the credit card. The assailant struck he in the head. The assailant took the man's wallet.,he,1,the head,57,FALSE,the man,0,TRUE,no url
+development_new385,The man lost the credit card. The assailant struck he in the head. The assailant took the man's wallet.,he,1,the credit card,13,FALSE,the man,0,TRUE,no url
+development_new386,The bananas ripened. We ate them. We squeezed them.,them,28,them,28,TRUE,the bananas,0,FALSE,no url
+development_new387,The pimples ripened. We squeezed them. We ate them.,them,33,we,21,FALSE,them,33,TRUE,no url
+development_new388,The clay hardened. The potter put it in the oven. The potter rolled the clay into a ball.,it,34,a ball,82,FALSE,the clay,0,TRUE,no url
+development_new389,The clay hardened. The potter put it in the oven. The potter rolled the clay into a ball.,it,34,the oven,40,FALSE,the clay,0,TRUE,no url
+development_new390,The clay took shape. The potter put it in the oven. The potter rolled the clay into a ball.,it,36,the clay,0,TRUE,a ball,84,FALSE,no url
+development_new391,The clay took shape. The potter put it in the oven. The potter rolled the clay into a ball.,it,36,the clay,0,TRUE,the oven,42,FALSE,no url
+development_new392,The clay took shape. The potter put it in the oven. The potter rolled the clay into a ball.,it,36,the clay,0,TRUE,shape,14,FALSE,no url
+development_new393,The woman betrayed her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,contact,42,FALSE,no url
+development_new394,The woman betrayed her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,contact,42,FALSE,no url
+development_new395,The woman betrayed her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,a greeting card,80,FALSE,no url
+development_new396,The woman betrayed her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,a greeting card,80,FALSE,no url
+development_new397,The woman betrayed her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,her,19,FALSE,no url
+development_new398,The woman betrayed her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,her,19,FALSE,no url
+development_new399,The woman stood by her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,contact,42,FALSE,no url
+development_new400,The woman stood by her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,contact,42,FALSE,no url
+development_new401,The woman stood by her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,a greeting card,80,FALSE,no url
+development_new402,The woman stood by her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,a greeting card,80,FALSE,no url
+development_new403,The woman stood by her friend. he cut off contact with her. Her friend sent her a greeting card.,he,1,her friend,19,TRUE,her,19,FALSE,no url
+development_new404,The woman stood by her friend. she cut off contact with her. Her friend sent her a greeting card.,she,31,her friend,19,TRUE,her,19,FALSE,no url
+development_new405,The bully stuck his foot out in front of his classmate. he picked up his classmate. The bully's classmate tripped.,he,1,the bully,0,TRUE,his classmate,41,FALSE,no url
+development_new406,The bully stuck his foot out in front of his classmate. she picked up his classmate. The bully's classmate tripped.,she,56,the bully,0,TRUE,his classmate,41,FALSE,no url
+development_new407,The bully stuck his foot out in front of his classmate. he picked up his classmate. The bully's classmate tripped.,he,1,the bully,0,TRUE,front,32,FALSE,no url
+development_new408,The bully stuck his foot out in front of his classmate. she picked up his classmate. The bully's classmate tripped.,she,56,the bully,0,TRUE,front,32,FALSE,no url
+development_new409,The bully stuck his foot out in front of his classmate. he picked up his classmate. The bully's classmate tripped.,he,1,the bully,0,TRUE,his foot,16,FALSE,no url
+development_new410,The bully stuck his foot out in front of his classmate. she picked up his classmate. The bully's classmate tripped.,she,56,the bully,0,TRUE,his foot,16,FALSE,no url
+development_new411,The bully stuck did not like his classmate. he picked up his classmate. The bully's classmate tripped.,he,1,his classmate,29,FALSE,the bully,0,TRUE,no url
+development_new412,The bully stuck did not like his classmate. she picked up his classmate. The bully's classmate tripped.,she,44,his classmate,29,FALSE,the bully,0,TRUE,no url
+development_new413,The man wanted to get revenge on his enemy. The man declared a truce with he. The man framed his enemy for a crime.,he,1,his enemy,33,TRUE,a crime,107,FALSE,no url
+development_new414,The man wanted to get revenge on his enemy. The man declared a truce with she. The man framed his enemy for a crime.,she,74,his enemy,33,TRUE,a crime,107,FALSE,no url
+development_new415,The man wanted to get revenge on his enemy. he declared a truce with his enemy. The man framed his enemy for a crime.,he,1,the man,0,TRUE,a truce,56,FALSE,no url
+development_new416,The man wanted to get peace with his enemy. he declared a truce with his enemy. The man framed his enemy for a crime.,he,1,his enemy,33,FALSE,the man,0,TRUE,no url
+development_new417,The man wanted to get peace with his enemy. The man declared a truce with he. The man framed his enemy for a crime.,he,1,a crime,107,FALSE,his enemy,33,TRUE,no url
+development_new418,The man wanted to get peace with his enemy. The man declared a truce with she. The man framed his enemy for a crime.,she,74,a crime,107,FALSE,his enemy,33,TRUE,no url
+development_new419,The man wanted to get peace with his enemy. The man declared a truce with he. The man framed his enemy for a crime.,he,1,a truce,61,FALSE,his enemy,33,TRUE,no url
+development_new420,The man wanted to get peace with his enemy. The man declared a truce with she. The man framed his enemy for a crime.,she,74,a truce,61,FALSE,his enemy,33,TRUE,no url
+development_new421,The woman was mistaken for her sister. The woman was close with she. The woman looked like her sister.,she,64,her sister,27,TRUE,the woman,0,FALSE,no url
+development_new422,The woman invited her sister for coffee. she looked like her sister. The woman was close with her sister.,she,41,the woman,0,TRUE,her sister,18,FALSE,no url
+development_new423,The boy found the television show boring. He recorded it. he shut it off.,he,1,he,1,TRUE,the television show,14,FALSE,no url
+development_new424,The boy found the television show boring. He recorded it. He shut it off.,it,54,it,54,TRUE,the boy,0,FALSE,no url
+development_new425,The boy found the television show interesting. He shut it off. He recorded it.,it,55,it,55,TRUE,the television show,14,FALSE,no url
+development_new426,The boy found the television show interesting. He shut it off. he recorded it.,he,1,he,1,TRUE,the boy,0,FALSE,no url
+development_new427,My daughter suffered an allergy attack. I took her to the emergency room. he took her to the emergency room.,he,47,an allergy attack,21,FALSE,i,40,TRUE,no url
+development_new428,My daughter suffered an allergy attack. I took her to the emergency room. she took her to the emergency room.,she,74,an allergy attack,21,FALSE,i,40,TRUE,no url
+development_new429,My daughter suffered an allergy attack. I took her to the emergency room. he took her to the emergency room.,he,47,the emergency room,54,FALSE,i,40,TRUE,no url
+development_new430,My daughter suffered an allergy attack. I took her to the emergency room. she took her to the emergency room.,she,74,the emergency room,54,FALSE,i,40,TRUE,no url
+development_new431,My daughter suffered an allergy attack. I took her to the emergency room. he took her to the emergency room.,he,47,her,47,FALSE,i,40,TRUE,no url
+development_new432,My daughter suffered an allergy attack. I took her to the emergency room. she took her to the emergency room.,she,74,her,47,FALSE,i,40,TRUE,no url
+development_new433,My daughter suffered an allergy attack. I took her to the emergency room. he took her to the emergency room.,he,47,deep breaths,-1,FALSE,i,40,TRUE,no url
+development_new434,My daughter suffered an allergy attack. I took her to the emergency room. she took her to the emergency room.,she,74,deep breaths,-1,FALSE,i,40,TRUE,no url
+development_new435,My daughter suffered an panic attack. I encouraged her to take deep breaths. he encouraged her to take deep breaths.,he,51,i,27,TRUE,her,51,FALSE,no url
+development_new436,My daughter suffered an panic attack. I encouraged her to take deep breaths. she encouraged her to take deep breaths.,she,77,i,27,TRUE,her,51,FALSE,no url
+development_new437,My daughter suffered an panic attack. I encouraged her to take deep breaths. he encouraged her to take deep breaths.,he,51,i,27,TRUE,the emergency room,-1,FALSE,no url
+development_new438,My daughter suffered an panic attack. I encouraged her to take deep breaths. she encouraged her to take deep breaths.,she,77,i,27,TRUE,the emergency room,-1,FALSE,no url
+development_new439,My daughter suffered an panic attack. I encouraged her to take deep breaths. he encouraged her to take deep breaths.,he,51,i,27,TRUE,deep breaths,63,FALSE,no url
+development_new440,My daughter suffered an panic attack. I encouraged her to take deep breaths. she encouraged her to take deep breaths.,she,77,i,27,TRUE,deep breaths,63,FALSE,no url
+development_new441,My daughter suffered an panic attack. I encouraged her to take deep breaths. he encouraged her to take deep breaths.,he,51,i,27,TRUE,my daughter,0,FALSE,no url
+development_new442,My daughter suffered an panic attack. I encouraged her to take deep breaths. she encouraged her to take deep breaths.,she,77,i,27,TRUE,my daughter,0,FALSE,no url
+development_new443,I spit out my chewing gum. he blew a bubble wheth the gum. The gum lost its flavor.,he,15,a bubble,35,FALSE,i,0,TRUE,no url
+development_new444,I spit out my chewing gum. she blew a bubble wsheth the gum. The gum lost its flavor.,she,27,a bubble,35,FALSE,i,0,TRUE,no url
+development_new445,I spit out my chewing gum. he blew a bubble wheth the gum. The gum lost its flavor.,he,15,the gum,50,FALSE,i,0,TRUE,no url
+development_new446,I spit out my chewing gum. she blew a bubble wsheth the gum. The gum lost its flavor.,she,27,the gum,50,FALSE,i,0,TRUE,no url
+development_new447,I spit out my chewing gum. he blew a bubble wheth the gum. The gum lost its flavor.,he,15,my chewing gum,11,FALSE,i,0,TRUE,no url
+development_new448,I spit out my chewing gum. she blew a bubble wsheth the gum. The gum lost its flavor.,she,27,my chewing gum,11,FALSE,i,0,TRUE,no url
+development_new449,I enjoyed my chewing gum. The gum lost its flavor. I blew a bubble with it.,it,39,the gum,26,TRUE,a bubble,58,FALSE,no url
+development_new450,I enjoyed my chewing gum. The gum lost its flavor. I blew a bubble with it.,it,39,the gum,26,TRUE,my chewing gum,10,FALSE,no url
+development_new451,I enjoyed my chewing gum. The gum lost its flavor. I blew a bubble with it.,it,39,the gum,26,TRUE,i,0,FALSE,no url
+development_new452,The boy painted a picture for his mother. she sold the picture to a gallery. His mother hung the picture on the wall.,she,42,his mother,30,TRUE,the boy,0,FALSE,no url
+development_new453,The boy painted a picture for his mother. she sold the picture to a gallery. His mother hung the picture on the wall.,she,42,his mother,30,TRUE,the picture,51,FALSE,no url
+development_new454,The boy painted a picture for his mother. she sold the picture to a gallery. His mother hung the picture on the wall.,she,42,his mother,30,TRUE,the wall,108,FALSE,no url
+development_new455,The boy painted a picture for his mother. she sold the picture to a gallery. His mother hung the picture on the wall.,she,42,his mother,30,TRUE,a picture,16,FALSE,no url
+development_new456,The mother no longer needed her son's picture. His mother sold the picture to a gallery. she hung the picture on the wall.,she,89,the picture,63,FALSE,his mother,47,TRUE,no url
+development_new457,The mother no longer needed her son's picture. His mother sold the picture to a gallery. she hung the picture on the wall.,she,89,her son's picture,28,FALSE,his mother,47,TRUE,no url
+development_new458,The mother no longer needed her son's picture. His mother sold the picture to a gallery. she hung the picture on the wall.,she,89,the mother,0,FALSE,his mother,47,TRUE,no url
+development_new459,The mother no longer needed her son's picture. His mother sold the picture to a gallery. she hung the picture on the wall.,she,89,the wall,113,FALSE,his mother,47,TRUE,no url
+development_new460,The egg splattered. I dropped it. he dropped het.,he,1,the egg,0,FALSE,i,20,TRUE,no url
+development_new461,The egg splattered. I dropped it. she dropped shet.,she,34,the egg,0,FALSE,i,20,TRUE,no url
+development_new462,The egg hardened. I dropped it. he dropped het.,he,1,the egg,0,FALSE,i,18,TRUE,no url
+development_new463,The egg hardened. I dropped it. she dropped shet.,she,32,the egg,0,FALSE,i,18,TRUE,no url
+development_new464,The woman filed a restraining order against the man. he stalked her. The man called her.,he,1,a restraining order,16,FALSE,the man,44,TRUE,no url
+development_new465,The woman filed a restraining order against the man. he stalked her. The man called her.,he,1,her,64,FALSE,the man,44,TRUE,no url
+development_new466,The woman answered the phone. The man called her. The man stalked she.,she,66,the phone,19,FALSE,her,45,TRUE,no url
+development_new467,The woman answered the phone. The man called her. he stalked her.,he,1,the woman,0,FALSE,the man,30,TRUE,no url
+development_new468,The football coach lost his voice after the game. He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.,he,1,his voice,24,FALSE,he,1,TRUE,no url
+development_new469,The football coach lost his voice after the game. He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.,he,1,a touchdown,87,FALSE,he,1,TRUE,no url
+development_new470,The football coach lost his voice after the game. He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.,he,1,the football coach,0,FALSE,he,1,TRUE,no url
+development_new471,The football coach lost his voice after the game. He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.,he,1,the ball,136,FALSE,he,1,TRUE,no url
+development_new472,The football coach lost his voice after the game. He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.,he,1,the game,40,FALSE,he,1,TRUE,no url
+development_new473,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. he yelled whenever a player fumbled the ball.",he,1,he,1,TRUE,a touchdown,81,FALSE,no url
+development_new474,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever he scored a touchdown.",he,1,a player,65,TRUE,the players,0,FALSE,no url
+development_new475,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever she scored a touchdown.",she,115,a player,65,TRUE,the players,0,FALSE,no url
+development_new476,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever he scored a touchdown.",he,1,a player,65,TRUE,"""the flute",31,FALSE,no url
+development_new477,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever she scored a touchdown.",she,115,a player,65,TRUE,"""the flute",31,FALSE,no url
+development_new478,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever he scored a touchdown.",he,1,a player,65,TRUE,their coach,19,FALSE,no url
+development_new479,"The players called their coach ""The Flute"". He whistled whenever a player scored a touchdown. He whistled whenever she scored a touchdown.",she,115,a player,65,TRUE,their coach,19,FALSE,no url
+development_new480,The woman fanned herself with her hand. She installed the air conditioner in the room. it in the room broke.,it,26,herself,17,FALSE,the air conditioner,54,TRUE,no url
+development_new481,The woman fanned herself with her hand. She installed the air conditioner in the room. it in the room broke.,it,26,the room,77,FALSE,the air conditioner,54,TRUE,no url
+development_new482,The woman fanned herself with her hand. She installed the air conditioner in the room. it in the room broke.,it,26,she,40,FALSE,the air conditioner,54,TRUE,no url
+development_new483,The woman fanned herself with her hand. She installed the air conditioner in the room. it in the room broke.,it,26,her hand,30,FALSE,the air conditioner,54,TRUE,no url
+development_new484,The woman's room is always cold. The air conditioner in the room broke. She installed it in the room.,it,45,the air conditioner,33,TRUE,the woman's room,0,FALSE,no url
+development_new485,The woman's room is always cold. The air conditioner in the room broke. She installed it in the room.,it,45,the air conditioner,33,TRUE,she,72,FALSE,no url
+development_new486,The woman presented her brother with a gift. he unwrapped the gift. Her brother refused to accept the gift.,he,1,her brother,20,TRUE,the gift,58,FALSE,no url
+development_new487,The woman presented her brother with a gift. he unwrapped the gift. Her brother refused to accept the gift.,he,1,her brother,20,TRUE,a gift,37,FALSE,no url
+development_new488,The woman's brother did not like the gift. Her brother unwrapped it. Her brother refused to accept the gift.,it,65,the gift,33,TRUE,her brother,43,FALSE,no url
+development_new489,The man needed coins to fill the parking meter. He begged people on the street for loose change. He searched under his car seats for it.,it,133,loose change,83,TRUE,the parking meter,29,FALSE,no url
+development_new490,The man needed coins to fill the parking meter. He begged people on the street for loose change. he searched under his car seats for loose change.,he,1,he,1,TRUE,coins,15,FALSE,no url
+development_new491,The man needed coins to fill the parking meter. He begged people on the street for loose change. he searched under his car seats for loose change.,he,1,he,1,TRUE,the man,0,FALSE,no url
+development_new492,The man needed coins to fill the parking meter. He begged people on the street for loose change. he searched under his car seats for loose change.,he,1,he,1,TRUE,the street,68,FALSE,no url
+development_new493,The man needed coins to fill the parking meter. He begged people on the street for loose change. he searched under his car seats for loose change.,he,1,he,1,TRUE,his car seats,115,FALSE,no url
+development_new494,The poor man recently lost his job. He searched under his car seats for loose change. he begged people on the street for loose change.,he,1,loose change,72,FALSE,he,1,TRUE,no url
+development_new495,The poor man recently lost his job. He searched under his car seats for loose change. He begged people on the street for it.,it,121,the street,106,FALSE,loose change,72,TRUE,no url
+development_new496,The poor man recently lost his job. He searched under his car seats for loose change. He begged people on the street for it.,it,121,his car seats,54,FALSE,loose change,72,TRUE,no url
+development_new497,The poor man recently lost his job. He searched under his car seats for loose change. He begged people on the street for it.,it,121,people,96,FALSE,loose change,72,TRUE,no url
+development_new498,The poor man recently lost his job. He searched under his car seats for loose change. He begged people on the street for it.,it,121,the poor man,0,FALSE,loose change,72,TRUE,no url
+development_new499,The boy giggled uncontrollably. His brother tickled him. he kicked him.,he,1,his brother,32,TRUE,the boy,0,FALSE,no url
+development_new500,The boy started crying loudly. His brother kicked him. His brother tickled he.,he,1,him,50,TRUE,the boy,0,FALSE,no url
+development_new501,I pulled too hard on the railing. it came loose from the wall. I caught myself on the railing.,it,34,the railing,21,TRUE,i,0,FALSE,no url
+development_new502,I pulled too hard on the railing. it came loose from the wall. I caught myself on the railing.,it,34,the railing,21,TRUE,myself,72,FALSE,no url
+development_new503,My friend was recovering from surgery. I dropped her off at the hospital. I brought she a card and flowers.,she,84,her,49,TRUE,my friend,0,FALSE,no url
+development_new504,My friend was recovering from surgery. I dropped her off at the hospital. he dropped her off at the hosphetal.,he,49,i,5,TRUE,the hospital,60,FALSE,no url
+development_new505,My friend was recovering from surgery. I dropped her off at the hospital. she dropped her off at the hospshetal.,she,74,i,5,TRUE,the hospital,60,FALSE,no url
+development_new506,My friend was recovering from surgery. I dropped her off at the hospital. he dropped her off at the hosphetal.,he,49,i,5,TRUE,surgery,30,FALSE,no url
+development_new507,My friend was recovering from surgery. I dropped her off at the hospital. she dropped her off at the hospshetal.,she,74,i,5,TRUE,surgery,30,FALSE,no url
+development_new508,My friend was recovering from surgery. I dropped her off at the hospital. he dropped her off at the hosphetal.,he,49,i,5,TRUE,a card,-1,FALSE,no url
+development_new509,My friend was recovering from surgery. I dropped her off at the hospital. she dropped her off at the hospshetal.,she,74,i,5,TRUE,a card,-1,FALSE,no url
+development_new510,My friend had to go for a health checkup. I brought her a card and flowers. he brought her a card and flowers.,he,26,my friend,0,FALSE,i,5,TRUE,no url
+development_new511,My friend had to go for a health checkup. I brought her a card and flowers. she brought her a card and flowers.,she,76,my friend,0,FALSE,i,5,TRUE,no url
+development_new512,My friend had to go for a health checkup. I brought her a card and flowers. he brought her a card and flowers.,he,26,her,52,FALSE,i,5,TRUE,no url
+development_new513,My friend had to go for a health checkup. I brought her a card and flowers. she brought her a card and flowers.,she,76,her,52,FALSE,i,5,TRUE,no url
+development_new514,My friend had to go for a health checkup. I brought her a card and flowers. he brought her a card and flowers.,he,26,the hospital,-1,FALSE,i,5,TRUE,no url
+development_new515,My friend had to go for a health checkup. I brought her a card and flowers. she brought her a card and flowers.,she,76,the hospital,-1,FALSE,i,5,TRUE,no url
+development_new516,My friend had to go for a health checkup. I brought her a card and flowers. he brought her a card and flowers.,he,26,flowers,67,FALSE,i,5,TRUE,no url
+development_new517,My friend had to go for a health checkup. I brought her a card and flowers. she brought her a card and flowers.,she,76,flowers,67,FALSE,i,5,TRUE,no url
+development_new518,My friend had to go for a health checkup. I brought her a card and flowers. he brought her a card and flowers.,he,26,a health checkup,24,FALSE,i,5,TRUE,no url
+development_new519,My friend had to go for a health checkup. I brought her a card and flowers. she brought her a card and flowers.,she,76,a health checkup,24,FALSE,i,5,TRUE,no url
+development_new520,The man lifted the heavy box. He scratched his back. he put out his back.,he,1,he,1,TRUE,his back,43,FALSE,no url
+development_new521,The man lifted the heavy box. He scratched his back. he put out his back.,he,1,he,1,TRUE,the man,0,FALSE,no url
+development_new522,The man was bitten by insects. He scratched his back. he put out his back.,he,1,his back,44,FALSE,he,1,TRUE,no url
+development_new523,The man was bitten by insects. He scratched his back. He put out it.,it,13,insects,22,FALSE,his back,44,TRUE,no url
+development_new524,The rider fell to the ground. The bull bucked he. The bull chased the rider.,he,1,the bull,30,FALSE,the rider,0,TRUE,no url
+development_new525,The rider fell to the ground. The bull bucked she. The bull chased the rider.,she,46,the bull,30,FALSE,the rider,0,TRUE,no url
+development_new526,The rider ran at full speed. The bull bucked he. The bull chased the rider.,he,1,the bull,29,FALSE,the rider,0,TRUE,no url
+development_new527,The rider ran at full speed. The bull bucked she. The bull chased the rider.,she,45,the bull,29,FALSE,the rider,0,TRUE,no url
+development_new528,The fussy baby calmed down. The parents shook a rattle in front of the baby. The parents shook a rattle in front of he.,he,1,the baby,67,TRUE,a rattle,46,FALSE,no url
+development_new529,The fussy baby calmed down. The parents shook a rattle in front of the baby. The parents shook a rattle in front of she.,she,116,the baby,67,TRUE,a rattle,46,FALSE,no url
+development_new530,The fussy baby calmed down. The parents shook a rattle in front of the baby. they picked out a name for the baby.,they,77,the parents,28,TRUE,a name,93,FALSE,no url
+development_new531,The fussy baby calmed down. The parents shook a rattle in front of the baby. they picked out a name for the baby.,they,77,the parents,28,TRUE,the fussy baby,0,FALSE,no url
+development_new532,The parents received a birth certificate. they picked out a name for the baby. The parents shook a rattle in front of the baby.,they,42,a name,58,FALSE,the parents,0,TRUE,no url
+development_new533,The parents received a birth certificate. they picked out a name for the baby. The parents shook a rattle in front of the baby.,they,42,front,109,FALSE,the parents,0,TRUE,no url
+development_new534,The parents received a birth certificate. they picked out a name for the baby. The parents shook a rattle in front of the baby.,they,42,a rattle,97,FALSE,the parents,0,TRUE,no url
+development_new535,The parents received a birth certificate. they picked out a name for the baby. The parents shook a rattle in front of the baby.,they,42,the baby,69,FALSE,the parents,0,TRUE,no url
+development_new536,The cup of tea was scalding hot. I poured it out. I blew on it.,it,42,i,24,FALSE,it,42,TRUE,no url
+development_new537,The cup of tea was scalding hot. I poured it out. he poured het out.,he,1,tea,11,FALSE,i,24,TRUE,no url
+development_new538,The cup of tea was scalding hot. I poured it out. she poured shet out.,she,50,tea,11,FALSE,i,24,TRUE,no url
+development_new539,The water in tank was dirty. I poured it out. he poured het out.,he,1,i,10,TRUE,it,38,FALSE,no url
+development_new540,The water in tank was dirty. I poured it out. she poured shet out.,she,46,i,10,TRUE,it,38,FALSE,no url
+development_new541,The water in tank was dirty. I poured it out. he poured het out.,he,1,i,10,TRUE,the water,0,FALSE,no url
+development_new542,The water in tank was dirty. I poured it out. she poured shet out.,she,46,i,10,TRUE,the water,0,FALSE,no url
+development_new543,The boy got a black eye. The bully mocked he. The bully punched the boy.,he,1,the bully,25,FALSE,the boy,0,TRUE,no url
+development_new544,The boy felt humiliated. The bully mocked he. The bully punched the boy.,he,1,the boy,0,TRUE,the bully,25,FALSE,no url
+development_new545,The magnet attracted the paperclip. The paperclip dropped from it. The paperclip stuck to the magnet.,it,63,the paperclip,21,FALSE,the magnet,0,TRUE,no url
+development_new546,The magnet was too weak to attract the paperclip. The paperclip stuck to it. The paperclip dropped from the magnet.,it,73,the paperclip,35,FALSE,the magnet,0,TRUE,no url
+development_new547,The glasses on the table spilled. The child yanked the tablecloth. he yanked the tablecloth.,he,1,the child,34,TRUE,the table,15,FALSE,no url
+development_new548,The glasses on the table spilled. The child yanked the tablecloth. she yanked the tablecloth.,she,67,the child,34,TRUE,the table,15,FALSE,no url
+development_new549,The glasses on the table spilled. The child yanked the tablecloth. he yanked the tablecloth.,he,1,the child,34,TRUE,the tablecloth,51,FALSE,no url
+development_new550,The glasses on the table spilled. The child yanked the tablecloth. she yanked the tablecloth.,she,67,the child,34,TRUE,the tablecloth,51,FALSE,no url
+development_new551,The tablecloth needed to be washed. The child yanked it. The child drew on the table.,it,53,the table,0,FALSE,the tablecloth,0,TRUE,no url
+development_new552,The city re-elected the mayor. he fulfilled his promises. The city cut its budget.,he,1,the mayor,20,TRUE,its budget,71,FALSE,no url
+development_new553,The city re-elected the mayor. she fulfilled his promises. The city cut its budget.,she,31,the mayor,20,TRUE,its budget,71,FALSE,no url
+development_new554,The city re-elected the mayor. he fulfilled his promises. The city cut its budget.,he,1,the mayor,20,TRUE,his promises,44,FALSE,no url
+development_new555,The city re-elected the mayor. she fulfilled his promises. The city cut its budget.,she,31,the mayor,20,TRUE,his promises,44,FALSE,no url
+development_new556,The man went into denial about the tragedy. He got over it easily. he refused to talk about it.,he,1,the tragedy,31,FALSE,he,1,TRUE,no url
+development_new557,The man went into denial about the tragedy. He got over it easily. he refused to talk about it.,he,1,denial,18,FALSE,he,1,TRUE,no url
+development_new558,The man went into denial about the tragedy. He got over it easily. he refused to talk about it.,he,1,it,56,FALSE,he,1,TRUE,no url
+development_new559,The man dealt well with the tragedy. He refused to talk about it. he got over it easily.,he,1,the tragedy,24,FALSE,he,1,TRUE,no url
+development_new560,The man dealt well with the tragedy. He refused to talk about it. He got over it easily.,it,20,the man,0,FALSE,it,20,TRUE,no url
+development_new561,The mother needed help looking after her children. She sent the children to daycare. She gave up custody of they.,they,108,her children,37,FALSE,the children,60,TRUE,no url
+development_new562,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,the mother,0,FALSE,she,51,TRUE,no url
+development_new563,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,help,18,FALSE,she,51,TRUE,no url
+development_new564,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,she,51,TRUE,her children,37,FALSE,no url
+development_new565,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,she,51,TRUE,the children,60,FALSE,no url
+development_new566,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,she,51,TRUE,the mother,0,FALSE,no url
+development_new567,The mother needed help looking after her children. She sent the children to daycare. she gave up custody of the children.,she,51,she,51,TRUE,help,18,FALSE,no url
+development_new568,The man wanted to save money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,his savings account,96,FALSE,no url
+development_new569,The man wanted to save money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,the man,0,FALSE,no url
+development_new570,The man wanted to save money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,frivolous purchases,52,FALSE,no url
+development_new571,The man wanted to spend money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,his savings account,97,FALSE,no url
+development_new572,The man wanted to spend money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,the man,0,FALSE,no url
+development_new573,The man wanted to spend money. He cut back on making frivolous purchases. he withdrew money from his savings account.,he,1,he,1,TRUE,frivolous purchases,53,FALSE,no url
+development_new574,The librarian told me that I couldn't borrow the book. it was checked out. I requested the librarian's help.,it,55,i,5,FALSE,the book,45,TRUE,no url
+development_new575,The librarian told me that I couldn't borrow the book. it was checked out. I requested the librarian's help.,it,55,me,19,FALSE,the book,45,TRUE,no url
+development_new576,The librarian told me that I couldn't borrow the book. it was checked out. I requested the librarian's help.,it,55,the librarian's help,87,FALSE,the book,45,TRUE,no url
+development_new577,The boy mimicked his older brother. he looked up to his older brother. The boy wrestled with his older brother.,he,1,the boy,0,TRUE,his older brother,17,FALSE,no url
+development_new578,The boy broke his arm. he looked up to his older brother. The boy wrestled with his older brother.,he,1,the boy,0,TRUE,his older brother,39,FALSE,no url
+development_new579,The mother scolded her daughter. she set the kitchen table. Her daughter burped at the kitchen table.,she,33,her daughter,19,TRUE,the kitchen table,41,FALSE,no url
+development_new580,The mother praised her daughter. she set the kitchen table. Her daughter burped at the kitchen table.,she,33,the kitchen table,41,FALSE,her daughter,19,TRUE,no url
+development_new581,I wanted to conserve energy. he swept the floor hen the unoccupheed room. I shut off the light in the unoccupied room.,he,29,the floor,38,FALSE,i,0,TRUE,no url
+development_new582,I wanted to conserve energy. she swept the floor shen the unoccupsheed room. I shut off the light in the unoccupied room.,she,29,the floor,38,FALSE,i,0,TRUE,no url
+development_new583,I wanted to conserve energy. he swept the floor hen the unoccupheed room. I shut off the light in the unoccupied room.,he,29,energy,21,FALSE,i,0,TRUE,no url
+development_new584,I wanted to conserve energy. she swept the floor shen the unoccupsheed room. I shut off the light in the unoccupied room.,she,29,energy,21,FALSE,i,0,TRUE,no url
+development_new585,I wanted to conserve energy. he swept the floor hen the unoccupheed room. I shut off the light in the unoccupied room.,he,29,the light,85,FALSE,i,0,TRUE,no url
+development_new586,I wanted to conserve energy. she swept the floor shen the unoccupsheed room. I shut off the light in the unoccupied room.,she,29,the light,85,FALSE,i,0,TRUE,no url
+development_new587,My friend wanted to stay overnight. I swept the floor in the unoccupied room. I shut off the light in it.,it,102,the unoccupied room,57,TRUE,my friend,0,FALSE,no url
+development_new588,My friend wanted to stay overnight. I swept the floor in the unoccupied room. he swept the floor hen the unoccupheed room.,he,45,i,5,TRUE,the floor,44,FALSE,no url
+development_new589,My friend wanted to stay overnight. I swept the floor in the unoccupied room. she swept the floor shen the unoccupsheed room.,she,78,i,5,TRUE,the floor,44,FALSE,no url
+development_new590,The hamburger meat browned. The cook froze it. he froze it.,he,1,the cook,28,TRUE,it,43,FALSE,no url
+development_new591,The hamburger meat browned. The cook froze it. she froze it.,she,47,the cook,28,TRUE,it,43,FALSE,no url
+development_new592,The hamburger meat can be stored for a long time. The cook grilled it. he grilled it.,he,1,the cook,50,TRUE,it,67,FALSE,no url
+development_new593,The hamburger meat can be stored for a long time. The cook grilled it. she grilled it.,she,71,the cook,50,TRUE,it,67,FALSE,no url
+development_new594,The hamburger meat can be stored for a long time. The cook grilled it. he grilled it.,he,1,the cook,50,TRUE,the hamburger meat,0,FALSE,no url
+development_new595,The hamburger meat can be stored for a long time. The cook grilled it. she grilled it.,she,71,the cook,50,TRUE,the hamburger meat,0,FALSE,no url
+development_new596,The flame on the candle went out. I put a match to the wick. I blew on it.,it,71,the flame,0,FALSE,the wick,51,TRUE,no url
+development_new597,The flame on the candle went out. I put a match to the wick. he put a match to the wheck.,he,1,a match,40,FALSE,i,34,TRUE,no url
+development_new598,The flame on the candle went out. I put a match to the wick. she put a match to the wsheck.,she,61,a match,40,FALSE,i,34,TRUE,no url
+development_new599,The candle lit up. I blew on the wick. he blew on the wheck.,he,1,i,12,TRUE,a match,-1,FALSE,no url
+development_new600,The candle lit up. I blew on the wick. she blew on the wsheck.,she,39,i,12,TRUE,a match,-1,FALSE,no url
+development_new601,The candle lit up. I blew on the wick. he blew on the wheck.,he,1,i,12,TRUE,the candle,0,FALSE,no url
+development_new602,The candle lit up. I blew on the wick. she blew on the wsheck.,she,39,i,12,TRUE,the candle,0,FALSE,no url
+development_new603,The bowling ball knocked over the bowling pins. The man rolled it down the alley. The man dropped the bowling ball on his foot.,it,63,the bowling ball,0,TRUE,the alley,71,FALSE,no url
+development_new604,The bowling ball knocked over the bowling pins. The man rolled it down the alley. The man dropped the bowling ball on his foot.,it,63,the bowling ball,0,TRUE,the bowling pins,30,FALSE,no url
+development_new605,The bowling ball knocked over the bowling pins. The man rolled it down the alley. The man dropped the bowling ball on his foot.,it,63,the bowling ball,0,TRUE,his foot,118,FALSE,no url
+development_new606,The bowling ball did not knock over any bowling pins. The man dropped it on his foot. The man rolled the bowling ball down the alley.,it,70,the alley,123,FALSE,the bowling ball,0,TRUE,no url
+development_new607,The bowling ball did not knock over any bowling pins. The man dropped it on his foot. The man rolled the bowling ball down the alley.,it,70,any bowling pins,36,FALSE,the bowling ball,0,TRUE,no url
+development_new608,The bowling ball did not knock over any bowling pins. The man dropped it on his foot. The man rolled the bowling ball down the alley.,it,70,his foot,76,FALSE,the bowling ball,0,TRUE,no url
+development_new609,The woman ran her finger under cold water. She burned it on the toaster. She put a diamond ring on her finger.,it,54,her finger,14,TRUE,cold water,31,FALSE,no url
+development_new610,The woman ran her finger under cold water. She burned it on the toaster. She put a diamond ring on her finger.,it,54,her finger,14,TRUE,she,43,FALSE,no url
+development_new611,The woman ran her finger under cold water. She burned it on the toaster. She put a diamond ring on her finger.,it,54,her finger,14,TRUE,a diamond ring,81,FALSE,no url
+development_new612,The woman ran her finger under cold water. She burned it on the toaster. She put a diamond ring on her finger.,it,54,her finger,14,TRUE,the toaster,60,FALSE,no url
+development_new613,The woman got ready for a night out. She put a diamond ring on her finger. she burned her finger on the toaster.,she,37,her finger,63,FALSE,she,37,TRUE,no url
+development_new614,The woman got ready for a night out. She put a diamond ring on her finger. She burned it on the toaster.,it,86,a diamond ring,45,FALSE,her finger,63,TRUE,no url
+development_new615,The woman got ready for a night out. She put a diamond ring on her finger. She burned it on the toaster.,it,86,a night,24,FALSE,her finger,63,TRUE,no url
+development_new616,The woman got ready for a night out. She put a diamond ring on her finger. She burned it on the toaster.,it,86,the toaster,92,FALSE,her finger,63,TRUE,no url
+development_new617,The student misspelled the word. The teacher dismissed her. The teacshe corrected she.,she,68,her,41,TRUE,the student,0,FALSE,no url
+development_new618,The student misspelled the word. The teacher dismissed her. he dismissed her.,he,1,the teacher,33,TRUE,the word,23,FALSE,no url
+development_new619,The student misspelled the word. The teacher dismissed her. she dismissed her.,she,60,the teacher,33,TRUE,the word,23,FALSE,no url
+development_new620,The student felt sick and wanted to go home. The teacher corrected her. he corrected her.,he,1,her,53,FALSE,the teacher,45,TRUE,no url
+development_new621,The student felt sick and wanted to go home. The teacher corrected her. she corrected her.,she,72,her,53,FALSE,the teacher,45,TRUE,no url
+development_new622,The man confessed his love for the woman. she envied him. The woman rejected him.,she,42,the woman,31,TRUE,him,53,FALSE,no url
+development_new623,The man confessed his love for the woman. she envied him. The woman rejected him.,she,42,the woman,31,TRUE,the man,0,FALSE,no url
+development_new624,The man showed his new car to the woman. she rejected him. The woman envied him.,she,41,the woman,30,TRUE,his new car,15,FALSE,no url
+development_new625,The man showed his new car to the woman. she rejected him. The woman envied him.,she,41,the woman,30,TRUE,him,54,FALSE,no url
+development_new626,The friends decided to share the hamburger. They ordered fries with it. They cut the hamburger in half.,it,64,the hamburger,29,TRUE,they,44,FALSE,no url
+development_new627,The friends decided to share the hamburger. They ordered fries with it. They cut the hamburger in half.,it,64,the hamburger,29,TRUE,half,98,FALSE,no url
+development_new628,The friends decided to share the hamburger. They ordered fries with it. They cut the hamburger in half.,it,64,the hamburger,29,TRUE,fries,57,FALSE,no url
+development_new629,The son told his parents that a hamburger is not enough. They ordered fries with the hamburger. they cut the hamburger in half.,they,57,half,122,FALSE,they,57,TRUE,no url
+development_new630,The son told his parents that a hamburger is not enough. They ordered fries with the hamburger. they cut the hamburger in half.,they,57,fries,70,FALSE,they,57,TRUE,no url
+development_new631,The son told his parents that a hamburger is not enough. They ordered fries with the hamburger. they cut the hamburger in half.,they,57,the hamburger,81,FALSE,they,57,TRUE,no url
+development_new632,The son told his parents that a hamburger is not enough. They ordered fries with the hamburger. they cut the hamburger in half.,they,57,the son,0,FALSE,they,57,TRUE,no url
+development_new633,The son told his parents that a hamburger is not enough. They ordered fries with the hamburger. they cut the hamburger in half.,they,57,a hamburger,30,FALSE,they,57,TRUE,no url
+development_new634,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,home,78,FALSE,no url
+development_new635,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,a rush,19,FALSE,no url
+development_new636,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,his lunch,95,FALSE,no url
+development_new637,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,school,36,FALSE,no url
+development_new638,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,his assignment,60,FALSE,no url
+development_new639,The student was in a rush to get to school on time. He left his assignment at home. he brought his lunch to school.,he,1,he,1,TRUE,the student,0,FALSE,no url
+development_new640,The man defied the authorities of the church. He was excommunicated from it. He donated money to the church.,it,25,he,1,FALSE,the church,34,TRUE,no url
+development_new641,The man defied the authorities of the church. He was excommunicated from it. He donated money to the church.,it,25,the man,0,FALSE,the church,34,TRUE,no url
+development_new642,The man defied the authorities of the church. He was excommunicated from it. He donated money to the church.,it,25,money,88,FALSE,the church,34,TRUE,no url
+development_new643,The man is a long-time member of the church. He donated money to it. He was excommunicated from the church.,it,65,the church,33,TRUE,he,1,FALSE,no url
+development_new644,The man is a long-time member of the church. He donated money to it. He was excommunicated from the church.,it,65,the church,33,TRUE,a long-time member,11,FALSE,no url
+development_new645,The man is a long-time member of the church. He donated money to it. He was excommunicated from the church.,it,65,the church,33,TRUE,the man,0,FALSE,no url
+development_new646,The woman's hair fell in her face. She lathered shampoo into her hair. She pulled it back with a clip.,it,82,her face,25,FALSE,her hair,61,TRUE,no url
+development_new647,The woman's hair fell in her face. She lathered shampoo into her hair. She pulled it back with a clip.,it,82,a clip,95,FALSE,her hair,61,TRUE,no url
+development_new648,The woman's hair fell in her face. She lathered shampoo into her hair. She pulled it back with a clip.,it,82,shampoo,48,FALSE,her hair,61,TRUE,no url
+development_new649,The woman's hair fell in her face. She lathered shampoo into her hair. She pulled it back with a clip.,it,82,she,35,FALSE,her hair,61,TRUE,no url
+development_new650,The woman began to wash her hair. She lathered shampoo into it. She pulled her hair back with a clip.,it,60,her hair,24,TRUE,a clip,94,FALSE,no url
+development_new651,The woman began to wash her hair. She lathered shampoo into it. She pulled her hair back with a clip.,it,60,her hair,24,TRUE,shampoo,47,FALSE,no url
+development_new652,The woman began to wash her hair. She lathered shampoo into it. She pulled her hair back with a clip.,it,60,her hair,24,TRUE,she,34,FALSE,no url
+development_new653,My skin broke out into a rash. I brushed against poison ivy in my yard. I eradicated the poison ivy from it.,it,105,poison ivy,49,FALSE,my yard,63,TRUE,no url
+development_new654,My skin broke out into a rash. I brushed against poison ivy in my yard. I eradicated the poison ivy from it.,it,105,i,5,FALSE,my yard,63,TRUE,no url
+development_new655,My skin broke out into a rash. I brushed against poison ivy in my yard. I eradicated the poison ivy from it.,it,105,the poison ivy,85,FALSE,my yard,63,TRUE,no url
+development_new656,My skin broke out into a rash. I brushed against poison ivy in my yard. I eradicated the poison ivy from it.,it,105,a rash,23,FALSE,my yard,63,TRUE,no url
+development_new657,I no longer broke out into a rash. he eradhecated the poheson hevy from my yard. I brushed against poison ivy in my yard.,he,35,my yard,72,FALSE,i,0,TRUE,no url
+development_new658,I no longer broke out into a rash. she eradshecated the posheson shevy from my yard. I brushed against poison ivy in my yard.,she,35,my yard,72,FALSE,i,0,TRUE,no url
+development_new659,I no longer broke out into a rash. he eradhecated the poheson hevy from my yard. I brushed against poison ivy in my yard.,he,35,the poison ivy,-1,FALSE,i,0,TRUE,no url
+development_new660,I no longer broke out into a rash. she eradshecated the posheson shevy from my yard. I brushed against poison ivy in my yard.,she,35,the poison ivy,-1,FALSE,i,0,TRUE,no url
+development_new661,I no longer broke out into a rash. he eradhecated the poheson hevy from my yard. I brushed against poison ivy in my yard.,he,35,a rash,27,FALSE,i,0,TRUE,no url
+development_new662,I no longer broke out into a rash. she eradshecated the posheson shevy from my yard. I brushed against poison ivy in my yard.,she,35,a rash,27,FALSE,i,0,TRUE,no url
+development_new663,The detective revealed an anomaly in the case. He scrapped his theory. he finalized his theory.,he,1,the detective,0,FALSE,he,1,TRUE,no url
+development_new664,The detective revealed an anomaly in the case. He scrapped his theory. he finalized his theory.,he,1,his theory,59,FALSE,he,1,TRUE,no url
+development_new665,The detective revealed an anomaly in the case. He scrapped his theory. he finalized his theory.,he,1,the case,37,FALSE,he,1,TRUE,no url
+development_new666,The detective found the last piece of evidence in the case. He finalized his theory. he scrapped his theory.,he,1,he,1,TRUE,the detective,0,FALSE,no url
+development_new667,The detective found the last piece of evidence in the case. He finalized his theory. He scrapped it.,it,97,his theory,73,TRUE,evidence,38,FALSE,no url
+development_new668,The detective found the last piece of evidence in the case. He finalized his theory. He scrapped it.,it,97,his theory,73,TRUE,the case,50,FALSE,no url
+development_new669,The boy threw a temper tantrum. He shared his toys with his brother. he took his toys from him.,he,1,his toys,42,FALSE,his brother,56,TRUE,no url
+development_new670,The boy threw a temper tantrum. He shared his toys with his brother. His brother took it from him.,it,52,the boy,0,FALSE,his toys,42,TRUE,no url
+development_new671,The boy threw a temper tantrum. He shared his toys with his brother. His brother took it from him.,it,52,him,94,FALSE,his toys,42,TRUE,no url
+development_new672,The boy threw a temper tantrum. He shared his toys with his brother. His brother took it from him.,it,52,he,1,FALSE,his toys,42,TRUE,no url
+development_new673,The boy had someone to play with. His brother took his toys from him. He shared it with his brother.,it,29,his toys,51,TRUE,he,1,FALSE,no url
+development_new674,The boy had someone to play with. His brother took his toys from him. He shared it with his brother.,it,29,his toys,51,TRUE,the boy,0,FALSE,no url
+development_new675,The boy had someone to play with. His brother took his toys from him. He shared it with his brother.,it,29,his toys,51,TRUE,his brother,34,FALSE,no url
+development_new676,The boy had someone to play with. His brother took his toys from him. He shared it with his brother.,it,29,his toys,51,TRUE,someone,12,FALSE,no url
+development_new677,The child learned how to read. He skipped a grade in school. he began attending school.,he,1,he,1,TRUE,a grade,42,FALSE,no url
+development_new678,The child learned how to read. He skipped a grade in school. he began attending school.,he,1,he,1,TRUE,the child,0,FALSE,no url
+development_new679,The child was much smaller than his classmates. He began attending school. he skipped a grade in school.,he,1,he,1,TRUE,a grade,86,FALSE,no url
+development_new680,The child was much smaller than his classmates. He began attending school. he skipped a grade in school.,he,1,he,1,TRUE,the child,0,FALSE,no url
+development_new681,The child was much smaller than his classmates. He began attending school. he skipped a grade in school.,he,1,he,1,TRUE,his classmates,32,FALSE,no url
+development_new682,The woman lavished her friend with flattery. She was irritated with her friend's whining. she wanted to ask her friend for a favor.,she,14,her friend's whining,68,FALSE,she,14,TRUE,no url
+development_new683,The woman lavished her friend with flattery. She was irritated with her friend's whining. she wanted to ask her friend for a favor.,she,14,a favor,123,FALSE,she,14,TRUE,no url
+development_new684,The woman lavished her friend with flattery. She was irritated with her friend's whining. she wanted to ask her friend for a favor.,she,14,her friend,19,FALSE,she,14,TRUE,no url
+development_new685,The woman lavished her friend with flattery. She was irritated with her friend's whining. she wanted to ask her friend for a favor.,she,14,flattery,35,FALSE,she,14,TRUE,no url
+development_new686,The woman yelled at her friend. She wanted to ask he for a favor. She was irritated with her friend's whining.,he,1,her friend's whining,89,FALSE,her friend,20,TRUE,no url
+development_new687,The woman yelled at her friend. She wanted to ask she for a favor. She was irritated with her friend's whining.,she,32,her friend's whining,89,FALSE,her friend,20,TRUE,no url
+development_new688,The woman yelled at her friend. She wanted to ask he for a favor. She was irritated with her friend's whining.,he,1,she,32,FALSE,her friend,20,TRUE,no url
+development_new689,The woman yelled at her friend. She wanted to ask she for a favor. She was irritated with her friend's whining.,she,32,she,32,FALSE,her friend,20,TRUE,no url
+development_new690,The woman yelled at her friend. She wanted to ask he for a favor. She was irritated with her friend's whining.,he,1,a favor,57,FALSE,her friend,20,TRUE,no url
+development_new691,The woman yelled at her friend. She wanted to ask she for a favor. She was irritated with her friend's whining.,she,32,a favor,57,FALSE,her friend,20,TRUE,no url
+development_new692,I was less worried about losing the key. I turned it in the lock. I made a duplicate of the key.,it,50,i,0,FALSE,the key,32,TRUE,no url
+development_new693,I was less worried about losing the key. I turned it in the lock. I made a duplicate of the key.,it,50,the lock,56,FALSE,the key,32,TRUE,no url
+development_new694,The woman asked the man to leave. He insulted her. He thanked she.,she,62,the man,16,FALSE,her,46,TRUE,no url
+development_new695,The woman asked the man to leave. He insulted her. he thanked her.,he,1,the woman,0,FALSE,he,1,TRUE,no url
+development_new696,The woman made the man a compliment. He thanked her. he insulted her.,he,1,her,48,FALSE,he,1,TRUE,no url
+development_new697,The woman made the man a compliment. He thanked her. He insulted she.,she,65,the man,15,FALSE,her,48,TRUE,no url
+development_new698,The lobbyist persuaded the legislature to support the bill. The president vetoed it. The legislature passed the bill.,it,81,the bill,50,TRUE,the president,60,FALSE,no url
+development_new699,The lobbyist persuaded the legislature to support the bill. The president vetoed it. The legislature passed the bill.,it,81,the bill,50,TRUE,the legislature,23,FALSE,no url
+development_new700,The lobbyist persuaded the president that the bill was bad for business. The president vetoed it. The legislature passed the bill.,it,94,the bill,42,TRUE,the president,23,FALSE,no url
+development_new701,The lobbyist persuaded the president that the bill was bad for business. The president vetoed it. The legislature passed the bill.,it,94,the bill,42,TRUE,the legislature,98,FALSE,no url
+development_new702,The lobbyist persuaded the president that the bill was bad for business. The president vetoed it. The legislature passed the bill.,it,94,the bill,42,TRUE,business,63,FALSE,no url
+development_new703,My closet was messy. I decorated it. I organized it.,it,33,it,33,TRUE,i,21,FALSE,no url
+development_new704,My room looked boring. I decorated it. I organized it.,it,35,i,18,FALSE,it,35,TRUE,no url
+development_new705,The man's pocket jingled as he walked. he sewed the hole in his pocket. His pocket was filled with coins.,he,1,his pocket,60,FALSE,he,1,TRUE,no url
+development_new706,The man's pocket jingled as he walked. he sewed the hole in his pocket. His pocket was filled with coins.,he,1,the man's pocket,0,FALSE,he,1,TRUE,no url
+development_new707,The man's pocket jingled as he walked. he sewed the hole in his pocket. His pocket was filled with coins.,he,1,the hole,48,FALSE,he,1,TRUE,no url
+development_new708,The man did not lose coins in his pocket anymore. His pocket was filled with it. He sewed the hole in his pocket.,it,73,coins,21,TRUE,the hole,90,FALSE,no url
+development_new709,The man did not lose coins in his pocket anymore. His pocket was filled with it. He sewed the hole in his pocket.,it,73,coins,21,TRUE,he,1,FALSE,no url
+development_new710,The man did not lose coins in his pocket anymore. His pocket was filled with it. He sewed the hole in his pocket.,it,73,coins,21,TRUE,his pocket,30,FALSE,no url
+development_new711,The woman read the newspaper. She casted a vote in the election. she discovered the outcome of the election.,she,30,she,30,TRUE,the newspaper,15,FALSE,no url
+development_new712,The woman read the newspaper. She casted a vote in the election. she discovered the outcome of the election.,she,30,she,30,TRUE,the election,51,FALSE,no url
+development_new713,The woman read the newspaper. She casted a vote in the election. she discovered the outcome of the election.,she,30,she,30,TRUE,a vote,41,FALSE,no url
+development_new714,The woman read the newspaper. She casted a vote in the election. she discovered the outcome of the election.,she,30,she,30,TRUE,the outcome,80,FALSE,no url
+development_new715,The woman went to the polling station. She casted a vote in the election. she discovered the outcome of the election.,she,39,the election,60,FALSE,she,39,TRUE,no url
+development_new716,The woman went to the polling station. She casted a vote in the election. She discovered the outcome of it.,it,104,the outcome,89,FALSE,the election,60,TRUE,no url
+development_new717,The woman went to the polling station. She casted a vote in the election. She discovered the outcome of it.,it,104,a vote,50,FALSE,the election,60,TRUE,no url
+development_new718,The woman went to the polling station. She casted a vote in the election. She discovered the outcome of it.,it,104,the polling station,18,FALSE,the election,60,TRUE,no url
+development_new719,The woman was in a bad mood. She engaged in small talk with her friend. She engaged in small talk with he.,he,1,small talk,44,FALSE,her friend,60,TRUE,no url
+development_new720,The woman was in a bad mood. She engaged in small talk with her friend. She engaged in small talk with she.,she,29,small talk,44,FALSE,her friend,60,TRUE,no url
+development_new721,The woman was in a bad mood. She engaged in small talk with her friend. she told her friend to leave her alone.,she,29,her,60,FALSE,she,29,TRUE,no url
+development_new722,The woman was in a bad mood. She engaged in small talk with her friend. she told her friend to leave her alone.,she,29,a bad mood,17,FALSE,she,29,TRUE,no url
+development_new723,The woman was in a good mood. She told her friend to leave her alone. she engaged in small talk with her friend.,she,30,she,30,TRUE,small talk,85,FALSE,no url
+development_new724,The woman was in a good mood. She told her friend to leave her alone. she engaged in small talk with her friend.,she,30,she,30,TRUE,her,39,FALSE,no url
+development_new725,The woman was in a good mood. She told her friend to leave her alone. she engaged in small talk with her friend.,she,30,she,30,TRUE,her friend,39,FALSE,no url
+development_new726,The woman was in a good mood. She told her friend to leave her alone. she engaged in small talk with her friend.,she,30,she,30,TRUE,a good mood,17,FALSE,no url
