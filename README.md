@@ -33,3 +33,14 @@ If you add any new packages to the project, you might need to update the require
     -   pip freeze > requirements.txt
 
     -   Push it to git
+
+
+How to run the code - step by step:
+
+1. First add all you text data into input/data_text.txt file
+2. Then run code/text2xml.py file
+3. Then run code/xml-to-csv.py file
+4. Then run code/dataset_generation_new.py file to generate output/train.csv and output/val.csv files
+5. Then run code/convert_wingrad_to_swag.py file to generate output/test.csv file.
+6. Then upload the train, test, val files in to swag folder into collab.
+7. Then run the collab file. 
