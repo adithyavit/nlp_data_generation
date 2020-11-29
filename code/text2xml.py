@@ -3,15 +3,18 @@ import os
 import xml.etree.ElementTree as et  
 import re
 
-f = open("./input/data_text.txt", "r")
+f = open("./input/data_text.txt", "r", encoding='utf-8')
 file_contents = f.read()
-print(type(file_contents)) 
+
+file_contents = re.sub(r'[^a-zA-Z0-9\s.]','', file_contents)
+# print(file_contents) 
+
 file_contents = file_contents.strip("\n")
 
 lines = file_contents.split(".")
 lines = [line.strip("\n") for line in lines if line.strip() != '']
 
-print(lines)
+# print(lines)
 
 num_lines = len(lines)
 
